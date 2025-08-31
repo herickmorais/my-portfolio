@@ -54,7 +54,7 @@ export default function Sidebar() {
   const location = useLocation();
 
   return (
-    <div className="w-[242px] h-screen bg-[#F5F5F7] shadow-[0_0_4px_2px_rgba(0,0,0,0.02)] flex flex-col pl-10 pr-6 py-12 fixed left-0 top-0">
+    <div className="w-[242px] h-screen bg-[#F5F5F7] shadow-[0_0_4px_2px_rgba(0,0,0,0.02)] flex flex-col pl-10 pr-4 py-12 fixed left-0 top-0">
       {/* Profile Section */}
       <div className="flex flex-col items-start gap-4 mb-9">
         {/* Profile Photo */}
