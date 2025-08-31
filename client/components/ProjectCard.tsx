@@ -15,9 +15,9 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, description, images, backgroundColor = "#E2E6E9", buttonType = 'available' }: ProjectCardProps) {
   return (
-    <motion.div 
-      className="flex min-w-[240px] max-w-[444px] flex-col items-start gap-4 flex-1 group cursor-pointer"
-      whileHover={{ 
+    <motion.div
+      className="flex w-full min-w-[240px] max-w-[444px] flex-col items-start gap-4 flex-1 group cursor-pointer"
+      whileHover={{
         scale: 1.05,
         transition: { duration: 0.3, ease: "easeOut" }
       }}
