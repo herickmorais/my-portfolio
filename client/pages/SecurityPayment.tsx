@@ -381,6 +381,168 @@ export default function SecurityPayment() {
                   </div>
                 </div>
               </div>
+
+              {/* Step 2: Ideation Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6">
+
+                <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
+                  Step 2: Ideation
+                </h3>
+
+                <p className="text-[20px] leading-[24px] text-[#252525] w-full">
+                  After the discovery phase, we moved on to creating the flow, style guide, and wireframes for the project.
+                </p>
+
+                {/* User Flow Mapping */}
+                <div className="w-full flex flex-col gap-6 mt-16">
+                  <div className="flex flex-col gap-2">
+                    <h4 className="text-[20px] font-medium leading-[24px] text-[#252525] w-full">
+                      User flow mapping
+                    </h4>
+                    <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                      We created a fast and intuitive payment slip verification process, with few steps and clicks, ensuring simple and efficient
+                      navigation.
+                    </p>
+                  </div>
+
+                  {/* User Flow Diagram */}
+                  <div className="w-full flex justify-center">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/d8e10e78a9b0358e5fede348b5e6398e997b1be9?width=1840"
+                      alt="User flow diagram showing payment slip verification process"
+                      className="w-full h-[341px] object-contain"
+                    />
+                  </div>
+                </div>
+
+                {/* Style Guide Creation */}
+                <div className="w-full flex flex-col gap-6 mt-16">
+                  <div className="flex flex-col gap-2">
+                    <h4 className="text-[20px] font-medium leading-[24px] text-[#252525] w-full">
+                      Creation of the Style Guide
+                    </h4>
+                    <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                      Developed based on the company's visual identity manual, but with adjustments to the primary color to improve
+                      accessibility, ensuring an inclusive experience.
+                    </p>
+                  </div>
+
+                  {/* Style Guide Image */}
+                  <div className="w-full flex justify-center">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/7d3cfc26e5235f4fb36794e9c4cca5633abee44b?width=1840"
+                      alt="Style guide showing colors, typography, and design elements"
+                      className="w-full h-[400px] object-contain rounded"
+                    />
+                  </div>
+
+                  {/* Color Accessibility Testing */}
+                  <div className="flex justify-center items-start gap-10 w-full mt-8">
+                    <div className="w-[280px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/61617bb7fc3df62e5025135b0c4668fc994d5c04?width=560"
+                        alt="Color accessibility testing results - page 1"
+                        className="w-full h-[531px] object-contain"
+                      />
+                    </div>
+                    <div className="w-[280px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/2768cd57551e49c56f9c59a9693b0ce3173fdcb9?width=560"
+                        alt="Color accessibility testing results - page 2"
+                        className="w-full h-[530px] object-contain"
+                      />
+                    </div>
+                    <div className="w-[280px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/20fe32f65cc2204d7f5afc446cea49db3394c76e?width=560"
+                        alt="Color accessibility testing results - page 3"
+                        className="w-full h-[543px] object-contain"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Wireframe Validation */}
+                <div className="w-full flex flex-col gap-6 mt-16">
+                  <div className="flex flex-col gap-2">
+                    <h4 className="text-[20px] font-medium leading-[24px] text-[#252525] w-full">
+                      Validations through wireframes.
+                    </h4>
+                    <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                      We used a proprietary component library, which accelerated the creation of wireframes and allowed us to quickly validate
+                      the solutions with clients, ensuring alignment with their expectations.
+                    </p>
+                  </div>
+
+                  {/* Mobile Wireframes Row 1 */}
+                  <div className="flex justify-center items-start gap-10 w-full">
+                    <div className="w-[145px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/e1344eaded69d728b2fa6fd7dfbb7e06dc11cb76?width=290"
+                        alt="Mobile wireframe 1"
+                        className="w-full h-[313px] object-contain"
+                      />
+                    </div>
+                    <div className="w-[145px] flex justify-center border border-[#DFDFDF] rounded">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/84c4bd16b938bbba3772c1c40fa09003510c4dcd?width=290"
+                        alt="Mobile wireframe 2"
+                        className="w-full h-[313px] object-contain rounded"
+                      />
+                    </div>
+                    <div className="w-[144px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/de1250ec82fbe50e0cdad3d9290b648d93975f7e?width=288"
+                        alt="Mobile wireframe 3"
+                        className="w-full h-[313px] object-contain"
+                      />
+                    </div>
+                    <div className="w-[144px] flex justify-center border border-[#DFDFDF] rounded">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/dd1eb250a3b2dbcffa38f13c907d34141526df9b?width=288"
+                        alt="Mobile wireframe 4"
+                        className="w-full h-[313px] object-contain rounded"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Desktop Wireframes Row 2 */}
+                  <div className="flex justify-center items-start gap-10 w-full mt-8">
+                    <div className="w-[338px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/d75acf5b3da6afe34a9cb0a722bd96409a1966d3?width=676"
+                        alt="Desktop wireframe 1"
+                        className="w-full h-[300px] object-contain"
+                      />
+                    </div>
+                    <div className="w-[306px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/9eba9fb4581a9881a9cf178acc537f30460ce833?width=612"
+                        alt="Desktop wireframe 2"
+                        className="w-full h-[300px] object-contain"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Desktop Wireframes Row 3 */}
+                  <div className="flex justify-center items-start gap-10 w-full mt-8">
+                    <div className="w-[295px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/f8854bdd24bc9ea06a0a4948c85cc2415ab8b8e1?width=590"
+                        alt="Desktop wireframe 3"
+                        className="w-full h-[166px] object-contain"
+                      />
+                    </div>
+                    <div className="w-[248px] flex justify-center">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/0b93935fd9320c32843556543c3ea798926dc006?width=496"
+                        alt="Desktop wireframe 4"
+                        className="w-full h-[166px] object-contain"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
