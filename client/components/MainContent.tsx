@@ -94,7 +94,7 @@ export default function MainContent() {
   return (
     <div className="flex-1 ml-[242px] min-h-screen bg-white">
       <div className="flex justify-center pt-12">
-        <div className="w-[920px] px-8">
+        <div className="w-[920px] px-8 flex flex-col gap-4">
           {/* Title Section */}
           <div className="flex justify-between items-center mb-6 flex-wrap gap-4">
             <div className="flex flex-col items-start gap-[15px]">
