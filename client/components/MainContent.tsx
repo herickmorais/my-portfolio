@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
+import { motion } from "framer-motion";
 
 const projectsData = [
   {
