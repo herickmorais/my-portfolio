@@ -7,6 +7,7 @@ const projectsData = [
     id: "security-payment",
     title: "Security and payment",
     description: "Application and Landing page to prevent payment fraud",
+    link: "/case-study/security-payment",
     images: [
       {
         src: "https://api.builder.io/api/v1/image/assets/TEMP/24f5044eba770904edfeb7aaa0b12401dad12056?width=194",
