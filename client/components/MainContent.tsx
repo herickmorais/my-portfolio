@@ -314,6 +314,7 @@ export default function MainContent() {
               variants={staggerContainer}
               initial="hidden"
               animate="visible"
+              className="flex flex-col gap-6"
             >
               {/* Full Width Image 1 - Brown Background */}
               <motion.div 
@@ -380,6 +381,55 @@ export default function MainContent() {
                 </div>
               </motion.div>
 
+              {/* Two Column Layout - Black/Black */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F4f00f65e72134114a8b1734a5c938fc0"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F94e64b67206e496f9498a2cc0f0174f8"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Full Width Image - Purple Background */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: 'rgba(63, 0, 95, 1)' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F48c75a6dff6c40cfa933c557432afbd2"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </motion.div>
+
               {/* Continue with more gallery items */}
               <motion.div 
                 className="flex flex-col justify-start w-full items-center px-6" 
@@ -411,6 +461,301 @@ export default function MainContent() {
                   />
                 </div>
               </motion.div>
+
+              {/* Two Column - Teal (208,224,224) */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(208, 224, 224, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fda63f7e5f77d4683a53ad923fe40a65f"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(208, 224, 224, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fd641c3c690ae444e99e06be5a00986ce"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Two Column - Teal (again) */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(208, 224, 224, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Ffa749a59e7604a7a951ee74121d9a939"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(208, 224, 224, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Ff56748a826ec4253a684316b9647d2af"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Two Column - Gray (206,206,206) */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(206, 206, 206, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F978092a9425642e6ae4655a2494ce2ba"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(206, 206, 206, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F0e87d73bc14341678059d1262d9738b7"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Full Width - Black */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F94704a7036d74b539104bcfe9a0dce74"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </motion.div>
+
+              {/* Full Width - Blue */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: '#23628A' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Faa3b0612f58d410488205da145e03f91"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </motion.div>
+
+              {/* Full Width - Blue 2 */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: '#23628A' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F35a5da573d53437ebfe8d6baeb154fdd"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </motion.div>
+
+              {/* Full Width - Blue 3 */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: '#23628A' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F4bd4c58a91774be68932c6f1a5c87097"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </motion.div>
+
+              {/* Two Column - Blue */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#23628A' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Ffe526e53d53f4405b217419e6fa3b7d7"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#23628A' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F05e7b291ddc34de0aee7ec174d503c73"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Two Column - Mixed Blue/Gray with explicit heights */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#23628A' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F04ebe4a23f0c4525a2dbbce8954a5695"
+                          className="w-full object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47', height: '572.3px' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e6e6e6' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F5c7c3afbdf60475dad5a042b112eba78"
+                          className="w-full object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47', height: '571.3px' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Two Column - Gray with explicit heights */}
+              <motion.div
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e6e6e6' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F5f4ca463aebc47a7887aaae4cf0ae37e"
+                          className="w-full object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47', height: '534px' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e6e6e6' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fbcd95ce149ba4b3eae3fed0da050d28f"
+                          className="w-full object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47', height: '534px' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Full Width - Dark Green with fixed height */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: 'rgba(18, 100, 80, 1)' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F12dfd70208bd4afc87e5ca1606d779b1"
+                    className="w-full object-cover object-center overflow-hidden"
+                    style={{ height: '454px' }}
+                  />
+                </div>
+              </motion.div>
+
+              {/* Full Width - Dark Green 2 with fixed height */}
+              <motion.div
+                className="flex flex-col justify-start w-full items-center px-6"
+                style={{ backgroundColor: 'rgba(18, 100, 80, 1)' }}
+                variants={galleryItemVariants}
+              >
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F2cd9610f9f6f43e397e8a48867d1430d"
+                    className="w-full object-cover object-center overflow-hidden"
+                    style={{ height: '402px' }}
+                  />
+                </div>
+              </motion.div>
+
             </motion.div>
           )}
         </motion.div>
