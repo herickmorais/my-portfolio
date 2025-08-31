@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-white flex">
       <Sidebar />
-      <div className="flex-1 ml-[216px] min-h-screen bg-white">
+      <div className="flex-1 ml-[242px] min-h-screen bg-white">
         <div className="flex justify-center pt-12">
           <div className="w-[920px] px-8">
             <div className="flex flex-col items-center justify-center h-64 text-center">
