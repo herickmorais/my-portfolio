@@ -8,9 +8,10 @@ interface ProjectCardProps {
     style?: React.CSSProperties;
   }[];
   backgroundColor?: string;
+  buttonType?: 'available' | 'in-progress';
 }
 
-export default function ProjectCard({ title, description, images, backgroundColor = "#E2E6E9" }: ProjectCardProps) {
+export default function ProjectCard({ title, description, images, backgroundColor = "#E2E6E9", buttonType = 'available' }: ProjectCardProps) {
   return (
     <div className="flex min-w-[240px] max-w-[444px] flex-col items-start gap-4 flex-1 group cursor-pointer transition-transform hover:scale-105">
       {/* Image Container */}
