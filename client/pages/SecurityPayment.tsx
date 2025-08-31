@@ -733,6 +733,425 @@ export default function SecurityPayment() {
                   </p>
                 </div>
               </div>
+
+              {/* Mobile App Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] w-full text-center">
+                  Mobile App
+                </h3>
+
+                {/* Mobile App Mockups - First Set */}
+                <div className="w-full p-12 bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl flex flex-wrap justify-center items-center gap-6">
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/fd836bc04e55dbe967b5ae836684e63a0f07d903?width=316"
+                      alt="Home screen with verification button"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[181px] h-[366px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/02260a4a871de5435f1c45edad615a3b594cc828?width=362"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/aa86a4628ad2d5e313469c3928fb0753eacabb7a?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[354px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/1800dab35f90800c717d7474c62879f3c2e51e72?width=314"
+                      alt="Bill type selection screen"
+                      className="absolute left-[11px] top-[8px] w-[157px] h-[339px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[180px] h-[366px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-[182px] h-[367px] opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/8a08b3d8dce17205f39d899f7148339414bc54de?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[355px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/15e413ae417636d835e0aa3b7cecb4e4e2176c42?width=316"
+                      alt="Bill verification form"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/8a08b3d8dce17205f39d899f7148339414bc54de?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[355px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/ed6647016a001c8d3ccc2700fbd82f873d0d35b7?width=316"
+                      alt="Camera scanning interface"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+                </div>
+
+                {/* Mobile App Features Description */}
+                <div className="border border-[#DFDFDF] rounded-lg p-4 w-full">
+                  <ul className="space-y-3 pl-8">
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Home screen with a large button to quickly verify payment slips.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Option to enter the payment slip code or scan it with the camera.
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Mobile App Mockups - Second Set */}
+                <div className="w-full p-12 bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl flex flex-wrap justify-center items-center gap-6 mt-8">
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/6cc9a416a9efe6afa37ddfcc700d883eca8b6655?width=316"
+                      alt="Verification success screen"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/8a08b3d8dce17205f39d899f7148339414bc54de?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[355px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/0e67599e8a23cae522163c75453e69e4f0ea0705?width=316"
+                      alt="Fraud warning screen"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/8a08b3d8dce17205f39d899f7148339414bc54de?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[355px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/b78f581c2572bc16d4d3734052d09231c459397e?width=316"
+                      alt="Tips and guidance screen"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/8a08b3d8dce17205f39d899f7148339414bc54de?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[355px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/87c8849937df122234002ae2796427371cf313d4?width=316"
+                      alt="Help and support screen"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+                </div>
+
+                {/* Second Set Features Description */}
+                <div className="border border-[#DFDFDF] rounded-lg p-4 w-full">
+                  <ul className="space-y-3 pl-8">
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Clear feedback for secure payment slips or potential fraud, along with appropriate guidance.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Help portal with tips on how to avoid fraud.
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Dark Mode Mobile App Mockups */}
+                <div className="w-full p-12 bg-gradient-to-br from-[#4F535A] to-[#1C1F24] rounded-2xl flex flex-wrap justify-center items-center gap-6 mt-8">
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/000054244d110ec34dcb4f02d020361be2066f49?width=316"
+                      alt="Dark mode home screen"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/15765764c34df66c34a6edc270884bafbdd85c33?width=316"
+                      alt="Dark mode bill selection"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/ada8cece5f93131e164b260570848134a1a063bc?width=316"
+                      alt="Dark mode verification form"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/f13bdb60014932ee0f9d1b0ea08aa01a46d352ad?width=316"
+                      alt="Dark mode camera scanning"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+                </div>
+
+                {/* Dark Mode Results */}
+                <div className="w-full p-10 bg-gradient-to-br from-[#4F535A] to-[#1C1F24] rounded-2xl flex flex-wrap justify-center items-center gap-7 mt-8">
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/84b6c03204b1faef6955233243626582a21bebbe?width=316"
+                      alt="Dark mode verification success"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/8fe186df1b2fda134de680d1f12d448f3cdb6184?width=316"
+                      alt="Dark mode fraud warning"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/dfc2cd19527b6ec7ef57e6c1286fa816c25be84a?width=316"
+                      alt="Dark mode tips and guidance"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+
+                  <div className="relative w-[182px] h-[367px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                      alt="Phone shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                      alt="Phone frame"
+                      className="absolute left-[3px] top-[1px] w-[175px] h-[356px] mix-blend-soft-light"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/71e85b129211a54eed5d137362c87360101f42ec?width=316"
+                      alt="Dark mode help and support"
+                      className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Admin Module Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] w-full text-center">
+                  Admin module
+                </h3>
+
+                {/* Admin Dashboard Mockups */}
+                <div className="w-full h-[756px] bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl relative">
+
+                  {/* First Tablet - Bottom Left */}
+                  <div className="absolute left-[135px] top-[413px] w-[416px] h-[325px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/f009e0a748efa1b57ed07cd7f5436f92e730d6c5?width=832"
+                      alt="Tablet shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/88139885d3fc12ac3d7ab5486603bdacdc66ba05?width=798"
+                      alt="Tablet frame"
+                      className="absolute w-[399px] h-[306px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/1060e2367e2b647532b0b7cabae14cc1e131d609?width=750"
+                      alt="Bill types management interface"
+                      className="absolute left-[12px] top-[12px] w-[375px] h-[281px]"
+                    />
+                  </div>
+
+                  {/* Second Tablet - Top Left */}
+                  <div className="absolute left-[68px] top-[38px] w-[462px] h-[360px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/88f4b12e177ccf3b2347cd8283585125c72a962a?width=924"
+                      alt="Tablet shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/cf083a0279e1615e7932c56b2ffd2866f310ca87?width=886"
+                      alt="Tablet frame"
+                      className="absolute w-[443px] h-[340px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/4e763e815836bb941848034b3a5e6caa045f7c11?width=832"
+                      alt="Payment slips verification dashboard"
+                      className="absolute left-[13px] top-[13px] w-[416px] h-[313px]"
+                    />
+                  </div>
+
+                  {/* Main Tablet - Center Right */}
+                  <div className="absolute left-[309px] top-[150px] w-[545px] h-[425px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/9d401cfc30243e36495dff5e03fe25dad06dfceb?width=1090"
+                      alt="Tablet shadow"
+                      className="absolute w-full h-full opacity-70"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/c8c7979eb786ef1737f48ead3c011b193281d17c?width=1044"
+                      alt="Tablet frame"
+                      className="absolute w-[522px] h-[400px]"
+                    />
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/6cee257e1e02be092377a3f2c5d0f20a2950b30c?width=982"
+                      alt="Admin dashboard with analytics and charts"
+                      className="absolute left-[15px] top-[15px] w-[491px] h-[368px]"
+                    />
+                  </div>
+                </div>
+
+                {/* Admin Module Features Description */}
+                <div className="border border-[#DFDFDF] rounded-lg p-4 w-full">
+                  <ul className="space-y-3 pl-8">
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Dashboard with key data: types of payment slips most commonly frauded and comparison between secure slips and frauds.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Comparison of access between web and app, along with a timeline graph to identify the most common months and types of fraud.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Page with individual access history for each verified payment slip.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Management of automated tips and FAQs.
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
