@@ -24,7 +24,7 @@ export default function SecurityPayment() {
               </Link>
             </div>
 
-            <div className="w-full pb-20 flex flex-col items-center gap-[119px]">
+            <div className="w-full pb-20 flex flex-col items-center gap-[80px]">
               
               {/* Hero Section */}
               <div className="flex flex-col items-center gap-20">
@@ -673,7 +673,7 @@ export default function SecurityPayment() {
                       <img
                         src="https://api.builder.io/api/v1/image/assets/TEMP/fa456cb88b52c7b1ef2510d13edbe4f48eed7fab?width=650"
                         alt="Landing page with verification tool and company information"
-                        className="absolute left-[49px] top-[4px] w-[325px] h-[209px]"
+                        className="absolute left-[7px] top-[7px] w-auto h-[209px] self-stretch"
                       />
                     </div>
                   </div>
@@ -1202,7 +1202,7 @@ export default function SecurityPayment() {
               </div>
 
               {/* Result Section */}
-              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+              <div className="w-full flex flex-col justify-center items-start gap-6">
 
                 <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
                   Result
