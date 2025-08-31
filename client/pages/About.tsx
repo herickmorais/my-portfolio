@@ -273,6 +273,11 @@ export default function About() {
                                 </g>
                               </g>
                             </g>
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1814_116547">
+                              <rect width="24" height="18" fill="white" transform="translate(0 0.898438)"/>
+                            </clipPath>
                           </defs>
                         </svg>
                         <span className="text-[20px] font-medium leading-[24px] text-[#252525]">
