@@ -8,15 +8,23 @@ export default function SecurityPayment() {
       <div className="flex-1 ml-[242px] min-h-screen bg-white">
         <div className="flex justify-center pt-20">
           <div className="w-[920px] flex flex-col justify-center items-center gap-6">
-            
             {/* Back to Projects Navigation */}
             <div className="flex h-20 items-center w-full border-b border-[#DFDFDF]">
-              <Link 
-                to="/" 
+              <Link
+                to="/"
                 className="flex items-center gap-2 py-2 hover:opacity-70 transition-opacity"
               >
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10.1919 1.63654C10.3794 1.82407 10.4847 2.07837 10.4847 2.34354C10.4847 2.6087 10.3794 2.86301 10.1919 3.05054L5.24191 8.00054L10.1919 12.9505C10.3741 13.1392 10.4749 13.3918 10.4726 13.654C10.4703 13.9161 10.3652 14.167 10.1798 14.3524C9.99436 14.5378 9.74347 14.6429 9.48132 14.6452C9.21912 14.6475 8.96652 14.5467 8.77792 14.3645L3.12091 8.70754C2.93344 8.52001 2.82812 8.2657 2.82812 8.00054C2.82812 7.73537 2.93344 7.48107 3.12091 7.29354L8.77792 1.63654C8.96544 1.44907 9.21975 1.34375 9.48487 1.34375C9.75007 1.34375 10.0044 1.44907 10.1919 1.63654Z" fill="#252525"/>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.1919 1.63654C10.3794 1.82407 10.4847 2.07837 10.4847 2.34354C10.4847 2.6087 10.3794 2.86301 10.1919 3.05054L5.24191 8.00054L10.1919 12.9505C10.3741 13.1392 10.4749 13.3918 10.4726 13.654C10.4703 13.9161 10.3652 14.167 10.1798 14.3524C9.99436 14.5378 9.74347 14.6429 9.48132 14.6452C9.21912 14.6475 8.96652 14.5467 8.77792 14.3645L3.12091 8.70754C2.93344 8.52001 2.82812 8.2657 2.82812 8.00054C2.82812 7.73537 2.93344 7.48107 3.12091 7.29354L8.77792 1.63654C8.96544 1.44907 9.21975 1.34375 9.48487 1.34375C9.75007 1.34375 10.0044 1.44907 10.1919 1.63654Z"
+                    fill="#252525"
+                  />
                 </svg>
                 <span className="text-[20px] font-medium leading-6 text-[#252525]">
                   Back to projects
@@ -25,23 +33,20 @@ export default function SecurityPayment() {
             </div>
 
             <div className="w-full pb-20 flex flex-col items-center gap-[80px]">
-              
               {/* Hero Section */}
               <div className="flex flex-col items-center gap-20">
                 <div className="flex flex-col items-center gap-6 w-full">
-                  
                   {/* Hero Image */}
                   <div className="w-[920px] flex justify-center items-center">
-                    <img 
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/1eb4d7b02a58dcbfc18aab27f173180b94202e6e?width=1840" 
-                      alt="Security and Payment app mockups showing desktop and mobile interfaces" 
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/1eb4d7b02a58dcbfc18aab27f173180b94202e6e?width=1840"
+                      alt="Security and Payment app mockups showing desktop and mobile interfaces"
                       className="w-full h-[397px] object-cover"
                     />
                   </div>
 
                   {/* Project Details */}
                   <div className="flex justify-between items-center flex-wrap w-full">
-                    
                     {/* Contribution */}
                     <div className="flex flex-col justify-center items-start gap-2 px-1 py-2 border-b border-[#DFDFDF] min-w-[249px]">
                       <h3 className="text-[16px] font-bold leading-[19.2px] text-[#252525] text-center">
@@ -80,32 +85,42 @@ export default function SecurityPayment() {
                     Clients free from fake payment slips
                   </h1>
                   <p className="text-[24px] font-medium leading-[36px] text-[#252525] w-full">
-                    Development of a tool that verifies whether payment slips are valid or fraudulent
+                    Development of a tool that verifies whether payment slips
+                    are valid or fraudulent
                   </p>
                 </div>
               </div>
 
               {/* Challenge Section */}
               <div className="flex flex-col items-start gap-8">
-                
                 <h2 className="text-[28px] font-semibold leading-[33.6px] text-[#252525]">
-                  The biggest <span className="text-[#CB4E66]">challenge</span> faced by the company.
+                  The biggest <span className="text-[#CB4E66]">challenge</span>{" "}
+                  faced by the company.
                 </h2>
 
                 <div className="flex flex-col items-start gap-6 w-full">
                   <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                    This project was developed to help large companies in the telemarketing and telecommunications sector in Brazil to 
-                    definitively <span className="font-bold">solve the issues related to fraud in payment slips faced by their users.</span>
+                    This project was developed to help large companies in the
+                    telemarketing and telecommunications sector in Brazil to
+                    definitively{" "}
+                    <span className="font-bold">
+                      solve the issues related to fraud in payment slips faced
+                      by their users.
+                    </span>
                   </p>
 
                   <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                    Many of their <span className="font-bold">clients were falling victim to scams by paying fake payment slips</span>. This resulted not only in financial 
-                    losses for the clients but also in a growing distrust in the banking system.
+                    Many of their{" "}
+                    <span className="font-bold">
+                      clients were falling victim to scams by paying fake
+                      payment slips
+                    </span>
+                    . This resulted not only in financial losses for the clients
+                    but also in a growing distrust in the banking system.
                   </p>
 
                   {/* Statistics */}
                   <div className="flex justify-between items-center flex-wrap w-full pt-2">
-                    
                     {/* 6 billions */}
                     <div className="flex flex-col justify-center items-start gap-2 px-1 py-4 border-b border-[#DFDFDF] min-w-[246px]">
                       <h3 className="text-[24px] font-semibold leading-[28.8px] text-[#CB4E66] text-center w-full">
@@ -122,13 +137,30 @@ export default function SecurityPayment() {
                         <h3 className="text-[24px] font-semibold leading-[28.8px] text-[#CB4E66]">
                           450 millions
                         </h3>
-                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg
+                          width="21"
+                          height="20"
+                          viewBox="0 0 21 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
                           <g clipPath="url(#clip0_warning)">
-                            <path d="M10.5 7.20237V11.0024M10.5 14.8024H10.5088M9.28843 2.3495L2.09165 15.8458C1.69248 16.5944 1.49289 16.9687 1.52239 17.2759C1.54812 17.5438 1.67742 17.7873 1.8781 17.9457C2.10819 18.1274 2.50654 18.1274 3.30326 18.1274H17.6968C18.4935 18.1274 18.8919 18.1274 19.1219 17.9457C19.3227 17.7873 19.452 17.5438 19.4777 17.2759C19.5072 16.9687 19.3076 16.5944 18.9084 15.8458L11.7116 2.3495C11.3139 1.6036 11.115 1.23065 10.8555 1.10538C10.6292 0.996122 10.3709 0.996122 10.1445 1.10538C9.88508 1.23065 9.68619 1.6036 9.28843 2.3495Z" stroke="#CB4E66" strokeWidth="1.82346" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path
+                              d="M10.5 7.20237V11.0024M10.5 14.8024H10.5088M9.28843 2.3495L2.09165 15.8458C1.69248 16.5944 1.49289 16.9687 1.52239 17.2759C1.54812 17.5438 1.67742 17.7873 1.8781 17.9457C2.10819 18.1274 2.50654 18.1274 3.30326 18.1274H17.6968C18.4935 18.1274 18.8919 18.1274 19.1219 17.9457C19.3227 17.7873 19.452 17.5438 19.4777 17.2759C19.5072 16.9687 19.3076 16.5944 18.9084 15.8458L11.7116 2.3495C11.3139 1.6036 11.115 1.23065 10.8555 1.10538C10.6292 0.996122 10.3709 0.996122 10.1445 1.10538C9.88508 1.23065 9.68619 1.6036 9.28843 2.3495Z"
+                              stroke="#CB4E66"
+                              strokeWidth="1.82346"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
                           </g>
                           <defs>
                             <clipPath id="clip0_warning">
-                              <rect width="21" height="19" fill="white" transform="translate(0 0.078125)"/>
+                              <rect
+                                width="21"
+                                height="19"
+                                fill="white"
+                                transform="translate(0 0.078125)"
+                              />
                             </clipPath>
                           </defs>
                         </svg>
@@ -153,43 +185,77 @@ export default function SecurityPayment() {
 
               {/* Goals Section */}
               <div className="w-full flex flex-col justify-center items-start gap-8">
-                
                 <h2 className="text-[28px] font-semibold leading-[42px] text-[#252525] w-full">
-                  Discover the main <span className="text-[#CB4E66]">goals</span> of the project
+                  Discover the main{" "}
+                  <span className="text-[#CB4E66]">goals</span> of the project
                 </h2>
 
                 {/* Goals Grid */}
                 <div className="flex items-start gap-8 flex-wrap w-full">
-                  
                   {/* Goal 1 */}
                   <div className="flex w-[380px] p-4 flex-col items-start gap-6 rounded-lg border border-[#DFDFDF]">
                     <div className="w-12 h-12 p-2 flex justify-center items-center rounded">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
                         <g clipPath="url(#clip0_edit)">
-                          <path d="M23.0757 19.9252L21.8448 21.2157C21.192 21.8999 20.3067 22.2842 19.3836 22.2842C18.4604 22.2842 17.5752 21.8999 16.9223 21.2157C16.2686 20.5329 15.3834 20.1494 14.4606 20.1494C13.5378 20.1494 12.6525 20.5329 11.9988 21.2157M0.921875 22.2842H2.98285C3.58492 22.2842 3.88596 22.2842 4.16925 22.219C4.42041 22.1613 4.66052 22.0659 4.88077 21.9366C5.12918 21.7907 5.34204 21.5867 5.76776 21.1787L21.2296 6.36114C22.2492 5.38402 22.2492 3.7998 21.2296 2.82268C20.21 1.84556 18.5569 1.84557 17.5373 2.82268L2.07543 17.6403C1.6497 18.0483 1.43683 18.2522 1.28461 18.4903C1.14964 18.7014 1.05019 18.9315 0.989888 19.1722C0.921875 19.4436 0.921875 19.7322 0.921875 20.3092V22.2842Z" stroke="#CB4E66" strokeWidth="1.80728" strokeLinecap="round" strokeLinejoin="round"/>
+                          <path
+                            d="M23.0757 19.9252L21.8448 21.2157C21.192 21.8999 20.3067 22.2842 19.3836 22.2842C18.4604 22.2842 17.5752 21.8999 16.9223 21.2157C16.2686 20.5329 15.3834 20.1494 14.4606 20.1494C13.5378 20.1494 12.6525 20.5329 11.9988 21.2157M0.921875 22.2842H2.98285C3.58492 22.2842 3.88596 22.2842 4.16925 22.219C4.42041 22.1613 4.66052 22.0659 4.88077 21.9366C5.12918 21.7907 5.34204 21.5867 5.76776 21.1787L21.2296 6.36114C22.2492 5.38402 22.2492 3.7998 21.2296 2.82268C20.21 1.84556 18.5569 1.84557 17.5373 2.82268L2.07543 17.6403C1.6497 18.0483 1.43683 18.2522 1.28461 18.4903C1.14964 18.7014 1.05019 18.9315 0.989888 19.1722C0.921875 19.4436 0.921875 19.7322 0.921875 20.3092V22.2842Z"
+                            stroke="#CB4E66"
+                            strokeWidth="1.80728"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </g>
                         <defs>
                           <clipPath id="clip0_edit">
-                            <rect width="24" height="23" fill="white" transform="translate(0 0.464844)"/>
+                            <rect
+                              width="24"
+                              height="23"
+                              fill="white"
+                              transform="translate(0 0.464844)"
+                            />
                           </clipPath>
                         </defs>
                       </svg>
                     </div>
                     <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] w-full">
-                      Create a product that prevents a user from paying a fake payment slip.
+                      Create a product that prevents a user from paying a fake
+                      payment slip.
                     </p>
                   </div>
 
                   {/* Goal 2 */}
                   <div className="flex p-4 flex-col items-start gap-6 flex-1 rounded-lg border border-[#DFDFDF]">
                     <div className="w-12 h-12 p-2 flex justify-center items-center rounded">
-                      <svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg
+                        width="22"
+                        height="28"
+                        viewBox="0 0 22 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
                         <g clipPath="url(#clip0_shield)">
-                          <path d="M13.3308 1.96484H7.26406C5.30388 1.96484 4.32379 1.96484 3.5751 2.35722C2.91653 2.70236 2.3811 3.2531 2.04554 3.93047C1.66406 4.70056 1.66406 5.70866 1.66406 7.72485V20.2048C1.66406 22.221 1.66406 23.2291 2.04554 23.9992C2.3811 24.6766 2.91653 25.2273 3.5751 25.5725C4.32379 25.9649 5.30388 25.9648 7.26406 25.9648H14.7308C16.6909 25.9648 17.671 25.9649 18.4197 25.5725C19.0783 25.2273 19.6137 24.6766 19.9493 23.9992C20.3308 23.2291 20.3308 22.221 20.3308 20.2048V9.16485M13.3308 1.96484L20.3308 9.16485M13.3308 1.96484V9.16485H20.3308M10.9974 21.1649C10.9974 21.1649 14.4974 19.4489 14.4974 16.8751V13.8723L11.9452 12.9343C11.332 12.7084 10.6614 12.7084 10.0482 12.9343L7.4974 13.8723V16.8751C7.4974 19.4489 10.9974 21.1649 10.9974 21.1649Z" stroke="#CB4E66" strokeWidth="1.77482" strokeLinecap="round" strokeLinejoin="round"/>
+                          <path
+                            d="M13.3308 1.96484H7.26406C5.30388 1.96484 4.32379 1.96484 3.5751 2.35722C2.91653 2.70236 2.3811 3.2531 2.04554 3.93047C1.66406 4.70056 1.66406 5.70866 1.66406 7.72485V20.2048C1.66406 22.221 1.66406 23.2291 2.04554 23.9992C2.3811 24.6766 2.91653 25.2273 3.5751 25.5725C4.32379 25.9649 5.30388 25.9648 7.26406 25.9648H14.7308C16.6909 25.9648 17.671 25.9649 18.4197 25.5725C19.0783 25.2273 19.6137 24.6766 19.9493 23.9992C20.3308 23.2291 20.3308 22.221 20.3308 20.2048V9.16485M13.3308 1.96484L20.3308 9.16485M13.3308 1.96484V9.16485H20.3308M10.9974 21.1649C10.9974 21.1649 14.4974 19.4489 14.4974 16.8751V13.8723L11.9452 12.9343C11.332 12.7084 10.6614 12.7084 10.0482 12.9343L7.4974 13.8723V16.8751C7.4974 19.4489 10.9974 21.1649 10.9974 21.1649Z"
+                            stroke="#CB4E66"
+                            strokeWidth="1.77482"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </g>
                         <defs>
                           <clipPath id="clip0_shield">
-                            <rect width="21" height="27" fill="white" transform="translate(0.5 0.464844)"/>
+                            <rect
+                              width="21"
+                              height="27"
+                              fill="white"
+                              transform="translate(0.5 0.464844)"
+                            />
                           </clipPath>
                         </defs>
                       </svg>
@@ -202,17 +268,33 @@ export default function SecurityPayment() {
 
                 {/* Goals Grid Row 2 */}
                 <div className="flex items-start gap-8 flex-wrap w-full">
-                  
                   {/* Goal 3 */}
                   <div className="flex w-[380px] p-4 flex-col items-start gap-6 rounded-lg border border-[#DFDFDF]">
                     <div className="w-12 h-12 p-2 flex justify-center items-center rounded">
-                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
                         <g clipPath="url(#clip0_face)">
-                          <path d="M9.2 16.5562C9.2 16.5562 11 18.9563 14 18.9563C17 18.9563 18.8 16.5562 18.8 16.5562M17.6 10.5563H17.612M9.2 10.5563H11.6M26 14.1563C26 20.7837 20.6274 26.1563 14 26.1563C7.37259 26.1563 2 20.7837 2 14.1563C2 7.52883 7.37259 2.15625 14 2.15625C20.6274 2.15625 26 7.52883 26 14.1563ZM18.2 10.5563C18.2 10.8876 17.9314 11.1562 17.6 11.1562C17.2686 11.1562 17 10.8876 17 10.5563C17 10.2249 17.2686 9.95625 17.6 9.95625C17.9314 9.95625 18.2 10.2249 18.2 10.5563Z" stroke="#CB4E66" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                          <path
+                            d="M9.2 16.5562C9.2 16.5562 11 18.9563 14 18.9563C17 18.9563 18.8 16.5562 18.8 16.5562M17.6 10.5563H17.612M9.2 10.5563H11.6M26 14.1563C26 20.7837 20.6274 26.1563 14 26.1563C7.37259 26.1563 2 20.7837 2 14.1563C2 7.52883 7.37259 2.15625 14 2.15625C20.6274 2.15625 26 7.52883 26 14.1563ZM18.2 10.5563C18.2 10.8876 17.9314 11.1562 17.6 11.1562C17.2686 11.1562 17 10.8876 17 10.5563C17 10.2249 17.2686 9.95625 17.6 9.95625C17.9314 9.95625 18.2 10.2249 18.2 10.5563Z"
+                            stroke="#CB4E66"
+                            strokeWidth="1.8"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </g>
                         <defs>
                           <clipPath id="clip0_face">
-                            <rect width="27" height="27" fill="white" transform="translate(0.5 0.65625)"/>
+                            <rect
+                              width="27"
+                              height="27"
+                              fill="white"
+                              transform="translate(0.5 0.65625)"
+                            />
                           </clipPath>
                         </defs>
                       </svg>
@@ -225,33 +307,52 @@ export default function SecurityPayment() {
                   {/* Goal 4 */}
                   <div className="flex p-4 flex-col items-start gap-6 flex-1 rounded-lg border border-[#DFDFDF]">
                     <div className="w-12 h-12 p-2 flex justify-center items-center rounded">
-                      <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg
+                        width="24"
+                        height="25"
+                        viewBox="0 0 24 25"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
                         <g clipPath="url(#clip0_chart)">
-                          <path d="M7.07572 15.8474V18.3089M11.9988 10.9243V18.3089M16.9218 6.0012V18.3089M6.82957 23.232H17.168C19.2359 23.232 20.2698 23.232 21.0597 22.8295C21.7544 22.4755 22.3193 21.9107 22.6733 21.216C23.0757 20.4261 23.0757 19.3922 23.0757 17.3243V6.98582C23.0757 4.91793 23.0757 3.88399 22.6733 3.09416C22.3193 2.39941 21.7544 1.83456 21.0597 1.48056C20.2698 1.07812 19.2359 1.07812 17.168 1.07812H6.82957C4.76168 1.07812 3.72774 1.07812 2.93791 1.48056C2.24316 1.83456 1.67831 2.39941 1.32431 3.09416C0.921875 3.88399 0.921875 4.91793 0.921875 6.98582V17.3243C0.921875 19.3922 0.921875 20.4261 1.32431 21.216C1.67831 21.9107 2.24316 22.4755 2.93791 22.8295C3.72774 23.232 4.76168 23.232 6.82957 23.232Z" stroke="#CB4E66" strokeWidth="1.84615" strokeLinecap="round" strokeLinejoin="round"/>
+                          <path
+                            d="M7.07572 15.8474V18.3089M11.9988 10.9243V18.3089M16.9218 6.0012V18.3089M6.82957 23.232H17.168C19.2359 23.232 20.2698 23.232 21.0597 22.8295C21.7544 22.4755 22.3193 21.9107 22.6733 21.216C23.0757 20.4261 23.0757 19.3922 23.0757 17.3243V6.98582C23.0757 4.91793 23.0757 3.88399 22.6733 3.09416C22.3193 2.39941 21.7544 1.83456 21.0597 1.48056C20.2698 1.07812 19.2359 1.07812 17.168 1.07812H6.82957C4.76168 1.07812 3.72774 1.07812 2.93791 1.48056C2.24316 1.83456 1.67831 2.39941 1.32431 3.09416C0.921875 3.88399 0.921875 4.91793 0.921875 6.98582V17.3243C0.921875 19.3922 0.921875 20.4261 1.32431 21.216C1.67831 21.9107 2.24316 22.4755 2.93791 22.8295C3.72774 23.232 4.76168 23.232 6.82957 23.232Z"
+                            stroke="#CB4E66"
+                            strokeWidth="1.84615"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </g>
                         <defs>
                           <clipPath id="clip0_chart">
-                            <rect width="24" height="24" fill="white" transform="translate(0 0.15625)"/>
+                            <rect
+                              width="24"
+                              height="24"
+                              fill="white"
+                              transform="translate(0 0.15625)"
+                            />
                           </clipPath>
                         </defs>
                       </svg>
                     </div>
                     <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] w-full">
-                      Build a portal to monitor data and app usage, making it easier to analyze and attract investors.
+                      Build a portal to monitor data and app usage, making it
+                      easier to analyze and attract investors.
                     </p>
                   </div>
                 </div>
 
                 {/* Conclusion */}
                 <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                  Given this scenario, major companies in Brazil's telecommunications sector invested in this MVP project to combat these
-                  figures and bring more security to their customers.
+                  Given this scenario, major companies in Brazil's
+                  telecommunications sector invested in this MVP project to
+                  combat these figures and bring more security to their
+                  customers.
                 </p>
               </div>
 
               {/* Development Process Section */}
               <div className="w-full flex flex-col justify-center items-center gap-8">
-
                 {/* Mobile App Mockups */}
                 <div className="w-full relative">
                   <div className="flex justify-center items-start gap-10 w-full">
@@ -289,7 +390,6 @@ export default function SecurityPayment() {
 
                 {/* Development Process Content */}
                 <div className="w-full flex flex-col justify-center items-start gap-6">
-
                   <h2 className="text-[36px] font-semibold leading-[43.2px] text-[#252525] w-full">
                     Development process
                   </h2>
@@ -300,25 +400,46 @@ export default function SecurityPayment() {
 
                   <div className="flex flex-col gap-6 w-full">
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                      We conducted <span className="font-bold">detailed analyses to understand the target audience and market solutions</span>, ensuring that development
-                      met real needs.
+                      We conducted{" "}
+                      <span className="font-bold">
+                        detailed analyses to understand the target audience and
+                        market solutions
+                      </span>
+                      , ensuring that development met real needs.
                     </p>
 
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                      We identified that customers wanted <span className="font-bold">a simple tool for verifying payment slips and quick access to support</span>. With this
-                      in mind, we decided to expand the functionality by creating a section with tips for fraud prevention, adding more value and
-                      increasing user engagement with the product.
+                      We identified that customers wanted{" "}
+                      <span className="font-bold">
+                        a simple tool for verifying payment slips and quick
+                        access to support
+                      </span>
+                      . With this in mind, we decided to expand the
+                      functionality by creating a section with tips for fraud
+                      prevention, adding more value and increasing user
+                      engagement with the product.
                     </p>
                   </div>
 
                   {/* Feature Cards */}
                   <div className="flex justify-between items-center w-full gap-4 mt-8">
-
                     {/* Payment slip verification */}
                     <div className="w-[242px] h-[128px] border border-[#DFDFDF] rounded-lg flex flex-col items-center justify-center gap-2 relative">
                       <div className="w-10 h-10 flex items-center justify-center">
-                        <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M12.9642 12.957H6.34348M8.55038 17.457H6.34348M15.171 8.45703H6.34348M19.5849 12.3945V8.23203C19.5849 6.34186 19.5849 5.39676 19.2241 4.67482C18.9067 4.03977 18.4003 3.52346 17.7774 3.19988C17.0693 2.83203 16.1423 2.83203 14.2883 2.83203H7.22624C5.37227 2.83203 4.44529 2.83203 3.73717 3.19988C3.11429 3.52346 2.60787 4.03977 2.29049 4.67482C1.92969 5.39676 1.92969 6.34186 1.92969 8.23203V19.932C1.92969 21.8222 1.92969 22.7673 2.29049 23.4893C2.60787 24.1243 3.11429 24.6406 3.73717 24.9641C4.44529 25.332 5.37227 25.332 7.22624 25.332H10.2055M21.7917 25.332L20.1366 23.6445M21.2401 20.832C21.2401 23.0066 19.5109 24.7695 17.378 24.7695C15.245 24.7695 13.5159 23.0066 13.5159 20.832C13.5159 18.6574 15.245 16.8945 17.378 16.8945C19.5109 16.8945 21.2401 18.6574 21.2401 20.832Z" stroke="#CB4E66" strokeWidth="2.22835" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg
+                          width="24"
+                          height="28"
+                          viewBox="0 0 24 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12.9642 12.957H6.34348M8.55038 17.457H6.34348M15.171 8.45703H6.34348M19.5849 12.3945V8.23203C19.5849 6.34186 19.5849 5.39676 19.2241 4.67482C18.9067 4.03977 18.4003 3.52346 17.7774 3.19988C17.0693 2.83203 16.1423 2.83203 14.2883 2.83203H7.22624C5.37227 2.83203 4.44529 2.83203 3.73717 3.19988C3.11429 3.52346 2.60787 4.03977 2.29049 4.67482C1.92969 5.39676 1.92969 6.34186 1.92969 8.23203V19.932C1.92969 21.8222 1.92969 22.7673 2.29049 23.4893C2.60787 24.1243 3.11429 24.6406 3.73717 24.9641C4.44529 25.332 5.37227 25.332 7.22624 25.332H10.2055M21.7917 25.332L20.1366 23.6445M21.2401 20.832C21.2401 23.0066 19.5109 24.7695 17.378 24.7695C15.245 24.7695 13.5159 23.0066 13.5159 20.832C13.5159 18.6574 15.245 16.8945 17.378 16.8945C19.5109 16.8945 21.2401 18.6574 21.2401 20.832Z"
+                            stroke="#CB4E66"
+                            strokeWidth="2.22835"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </svg>
                       </div>
                       <div className="text-center">
@@ -333,16 +454,39 @@ export default function SecurityPayment() {
 
                     {/* Dotted Line */}
                     <div className="flex-1 h-[4px] flex items-center justify-center">
-                      <svg width="97" height="5" viewBox="0 0 97 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.980469 2.08203H96.0209" stroke="#CB4E66" strokeWidth="1.97969" strokeDasharray="2.97 2.97"/>
+                      <svg
+                        width="97"
+                        height="5"
+                        viewBox="0 0 97 5"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.980469 2.08203H96.0209"
+                          stroke="#CB4E66"
+                          strokeWidth="1.97969"
+                          strokeDasharray="2.97 2.97"
+                        />
                       </svg>
                     </div>
 
                     {/* Tips and FAQs */}
                     <div className="w-[242px] h-[128px] border border-[#DFDFDF] rounded-lg flex flex-col items-center justify-center gap-2 relative">
                       <div className="w-10 h-10 flex items-center justify-center">
-                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M14 2.83203V3.95703M3.875 14.082H2.75M6.6875 6.76953L6.01239 6.09442M21.3125 6.76953L21.9878 6.09442M25.25 14.082H24.125M11.75 15.7695H16.25M14 15.7695V21.3945M17.9375 19.5652C19.6408 18.3399 20.75 16.3405 20.75 14.082C20.75 10.3541 17.7279 7.33203 14 7.33203C10.2721 7.33203 7.25 10.3541 7.25 14.082C7.25 16.3405 8.35918 18.3399 10.0625 19.5652V21.732C10.0625 22.9921 10.0625 23.6222 10.3077 24.1035C10.5235 24.5269 10.8677 24.8711 11.2911 25.0868C11.7723 25.332 12.4024 25.332 13.6625 25.332H14.3375C15.5976 25.332 16.2277 25.332 16.7089 25.0868C17.1323 24.8711 17.4766 24.5269 17.6922 24.1035C17.9375 23.6222 17.9375 22.9921 17.9375 21.7321V19.5652Z" stroke="#CB4E66" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14 2.83203V3.95703M3.875 14.082H2.75M6.6875 6.76953L6.01239 6.09442M21.3125 6.76953L21.9878 6.09442M25.25 14.082H24.125M11.75 15.7695H16.25M14 15.7695V21.3945M17.9375 19.5652C19.6408 18.3399 20.75 16.3405 20.75 14.082C20.75 10.3541 17.7279 7.33203 14 7.33203C10.2721 7.33203 7.25 10.3541 7.25 14.082C7.25 16.3405 8.35918 18.3399 10.0625 19.5652V21.732C10.0625 22.9921 10.0625 23.6222 10.3077 24.1035C10.5235 24.5269 10.8677 24.8711 11.2911 25.0868C11.7723 25.332 12.4024 25.332 13.6625 25.332H14.3375C15.5976 25.332 16.2277 25.332 16.7089 25.0868C17.1323 24.8711 17.4766 24.5269 17.6922 24.1035C17.9375 23.6222 17.9375 22.9921 17.9375 21.7321V19.5652Z"
+                            stroke="#CB4E66"
+                            strokeWidth="2.25"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </svg>
                       </div>
                       <div className="text-center">
@@ -357,16 +501,39 @@ export default function SecurityPayment() {
 
                     {/* Dotted Line */}
                     <div className="flex-1 h-[4px] flex items-center justify-center">
-                      <svg width="97" height="5" viewBox="0 0 97 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.980469 2.08203H96.0209" stroke="#CB4E66" strokeWidth="1.97969" strokeDasharray="2.97 2.97"/>
+                      <svg
+                        width="97"
+                        height="5"
+                        viewBox="0 0 97 5"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.980469 2.08203H96.0209"
+                          stroke="#CB4E66"
+                          strokeWidth="1.97969"
+                          strokeDasharray="2.97 2.97"
+                        />
                       </svg>
                     </div>
 
                     {/* Support contact */}
                     <div className="w-[242px] h-[128px] border border-[#DFDFDF] rounded-lg flex flex-col items-center justify-center gap-2 relative">
                       <div className="w-10 h-10 flex items-center justify-center">
-                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.75 17.457L8.29033 20.96C7.80776 21.4486 7.56647 21.6928 7.35907 21.7101C7.17914 21.7251 7.00297 21.6527 6.88546 21.5157C6.75 21.3576 6.75 21.0143 6.75 20.3275V18.5726C6.75 17.9565 6.24545 17.5107 5.63585 17.4214C4.16046 17.2053 3.00175 16.0465 2.78563 14.5712C2.75 14.3279 2.75 14.0376 2.75 13.457V8.23203C2.75 6.34186 2.75 5.39676 3.11785 4.67482C3.44143 4.03977 3.95774 3.52346 4.59278 3.19988C5.31473 2.83203 6.25982 2.83203 8.15 2.83203H16.475C18.3651 2.83203 19.3103 2.83203 20.0322 3.19988C20.6672 3.52346 21.1836 4.03977 21.5072 4.67482C21.875 5.39676 21.875 6.34186 21.875 8.23203V12.957M21.875 25.332L19.4266 23.6298C19.0823 23.3905 18.9103 23.2708 18.723 23.186C18.5568 23.1108 18.382 23.0559 18.2025 23.0228C18.0003 22.9856 17.7907 22.9856 17.3715 22.9856H15.35C14.0899 22.9856 13.4598 22.9856 12.9786 22.7404C12.5552 22.5247 12.2109 22.1804 11.9952 21.757C11.75 21.2758 11.75 20.6457 11.75 19.3856V16.557C11.75 15.2969 11.75 14.6668 11.9952 14.1856C12.2109 13.7622 12.5552 13.418 12.9786 13.2023C13.4598 12.957 14.0899 12.957 15.35 12.957H21.65C22.9101 12.957 23.5402 12.957 24.0215 13.2023C24.4449 13.418 24.789 13.7622 25.0048 14.1856C25.25 14.6668 25.25 15.2969 25.25 16.557V19.6106C25.25 20.659 25.25 21.1831 25.0787 21.5967C24.8504 22.148 24.4124 22.586 23.8611 22.8144C23.4476 22.9856 22.9233 22.9856 21.875 22.9856V25.332Z" stroke="#CB4E66" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round"/>
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 28 28"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.75 17.457L8.29033 20.96C7.80776 21.4486 7.56647 21.6928 7.35907 21.7101C7.17914 21.7251 7.00297 21.6527 6.88546 21.5157C6.75 21.3576 6.75 21.0143 6.75 20.3275V18.5726C6.75 17.9565 6.24545 17.5107 5.63585 17.4214C4.16046 17.2053 3.00175 16.0465 2.78563 14.5712C2.75 14.3279 2.75 14.0376 2.75 13.457V8.23203C2.75 6.34186 2.75 5.39676 3.11785 4.67482C3.44143 4.03977 3.95774 3.52346 4.59278 3.19988C5.31473 2.83203 6.25982 2.83203 8.15 2.83203H16.475C18.3651 2.83203 19.3103 2.83203 20.0322 3.19988C20.6672 3.52346 21.1836 4.03977 21.5072 4.67482C21.875 5.39676 21.875 6.34186 21.875 8.23203V12.957M21.875 25.332L19.4266 23.6298C19.0823 23.3905 18.9103 23.2708 18.723 23.186C18.5568 23.1108 18.382 23.0559 18.2025 23.0228C18.0003 22.9856 17.7907 22.9856 17.3715 22.9856H15.35C14.0899 22.9856 13.4598 22.9856 12.9786 22.7404C12.5552 22.5247 12.2109 22.1804 11.9952 21.757C11.75 21.2758 11.75 20.6457 11.75 19.3856V16.557C11.75 15.2969 11.75 14.6668 11.9952 14.1856C12.2109 13.7622 12.5552 13.418 12.9786 13.2023C13.4598 12.957 14.0899 12.957 15.35 12.957H21.65C22.9101 12.957 23.5402 12.957 24.0215 13.2023C24.4449 13.418 24.789 13.7622 25.0048 14.1856C25.25 14.6668 25.25 15.2969 25.25 16.557V19.6106C25.25 20.659 25.25 21.1831 25.0787 21.5967C24.8504 22.148 24.4124 22.586 23.8611 22.8144C23.4476 22.9856 22.9233 22.9856 21.875 22.9856V25.332Z"
+                            stroke="#CB4E66"
+                            strokeWidth="2.25"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
                         </svg>
                       </div>
                       <div className="text-center">
@@ -384,13 +551,13 @@ export default function SecurityPayment() {
 
               {/* Step 2: Ideation Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6">
-
                 <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
                   Step 2: Ideation
                 </h3>
 
                 <p className="text-[20px] leading-[24px] text-[#252525] w-full">
-                  After the discovery phase, we moved on to creating the flow, style guide, and wireframes for the project.
+                  After the discovery phase, we moved on to creating the flow,
+                  style guide, and wireframes for the project.
                 </p>
 
                 {/* User Flow Mapping */}
@@ -400,8 +567,9 @@ export default function SecurityPayment() {
                       User flow mapping
                     </h4>
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                      We created a fast and intuitive payment slip verification process, with few steps and clicks, ensuring simple and efficient
-                      navigation.
+                      We created a fast and intuitive payment slip verification
+                      process, with few steps and clicks, ensuring simple and
+                      efficient navigation.
                     </p>
                   </div>
 
@@ -422,7 +590,8 @@ export default function SecurityPayment() {
                       Creation of the Style Guide
                     </h4>
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                      Developed based on the company's visual identity manual, but with adjustments to the primary color to improve
+                      Developed based on the company's visual identity manual,
+                      but with adjustments to the primary color to improve
                       accessibility, ensuring an inclusive experience.
                     </p>
                   </div>
@@ -469,8 +638,10 @@ export default function SecurityPayment() {
                       Validations through wireframes.
                     </h4>
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                      We used a proprietary component library, which accelerated the creation of wireframes and allowed us to quickly validate
-                      the solutions with clients, ensuring alignment with their expectations.
+                      We used a proprietary component library, which accelerated
+                      the creation of wireframes and allowed us to quickly
+                      validate the solutions with clients, ensuring alignment
+                      with their expectations.
                     </p>
                   </div>
 
@@ -546,14 +717,14 @@ export default function SecurityPayment() {
 
               {/* Step 3: Development Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
-
                 <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
                   Step 3: Development
                 </h3>
 
                 <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                  After the approval of the flow, style guide, and initial wireframes, we moved on to creating the new components and high-
-                  fidelity design.
+                  After the approval of the flow, style guide, and initial
+                  wireframes, we moved on to creating the new components and
+                  high- fidelity design.
                 </p>
 
                 {/* Mobile App Section */}
@@ -586,8 +757,9 @@ export default function SecurityPayment() {
                     {/* Description Card */}
                     <div className="border border-[#DFDFDF] rounded-lg p-4 flex justify-center items-center min-h-[148px]">
                       <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] text-center max-w-[520px]">
-                        The main product is an application that allows users to quickly scan
-                        payment slips with their phone's camera, facilitating reading.
+                        The main product is an application that allows users to
+                        quickly scan payment slips with their phone's camera,
+                        facilitating reading.
                       </p>
                     </div>
 
@@ -610,10 +782,9 @@ export default function SecurityPayment() {
                     {/* Admin Portal Description */}
                     <div className="border border-[#DFDFDF] rounded-lg p-6 flex justify-center items-center">
                       <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] text-center">
-                        Creation of an Admin portal to facilitate
-                        product management by the company's
-                        management team without relying on the
-                        development team.
+                        Creation of an Admin portal to facilitate product
+                        management by the company's management team without
+                        relying on the development team.
                       </p>
                     </div>
 
@@ -682,10 +853,9 @@ export default function SecurityPayment() {
                     {/* Landing Page Description */}
                     <div className="border border-[#DFDFDF] rounded-lg p-6 flex justify-center items-center">
                       <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] text-center">
-                        Landing page featuring the verification
-                        functionality and an institutional section
-                        explaining the product, company, and
-                        partners.
+                        Landing page featuring the verification functionality
+                        and an institutional section explaining the product,
+                        company, and partners.
                       </p>
                     </div>
 
@@ -703,40 +873,47 @@ export default function SecurityPayment() {
 
               {/* Step 4: Interaction Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
-
                 <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
                   Step 4: Interaction
                 </h3>
 
                 <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                  We began creating the first screens and held several discussions with clients to gather feedback on the developed options.
-                  We also validated the screens together, ensuring <span className="font-bold">quality, accessibility, and alignment with the project's objectives.</span>
+                  We began creating the first screens and held several
+                  discussions with clients to gather feedback on the developed
+                  options. We also validated the screens together, ensuring{" "}
+                  <span className="font-bold">
+                    quality, accessibility, and alignment with the project's
+                    objectives.
+                  </span>
                 </p>
               </div>
 
               {/* Step 5: Delivery Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
-
                 <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
                   Step 5: Delivery
                 </h3>
 
                 <div className="flex flex-col gap-6 w-full">
                   <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                    After completing the validations with the clients, we made the final adjustments and prepared the files to be handed over to
-                    the development team, along with <span className="font-bold">documentation of components and navigation flows, as well as a navigable
-                    prototype.</span>
+                    After completing the validations with the clients, we made
+                    the final adjustments and prepared the files to be handed
+                    over to the development team, along with{" "}
+                    <span className="font-bold">
+                      documentation of components and navigation flows, as well
+                      as a navigable prototype.
+                    </span>
                   </p>
 
                   <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                    Check below for the final delivery of the project and the content of each product.
+                    Check below for the final delivery of the project and the
+                    content of each product.
                   </p>
                 </div>
               </div>
 
               {/* Mobile App Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
-
                 <h3 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] w-full text-center">
                   Mobile App
                 </h3>
@@ -820,10 +997,12 @@ export default function SecurityPayment() {
                 <div className="border border-[#DFDFDF] rounded-lg p-4 w-full">
                   <ul className="space-y-3 pl-8">
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Home screen with a large button to quickly verify payment slips.
+                      Home screen with a large button to quickly verify payment
+                      slips.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Option to enter the payment slip code or scan it with the camera.
+                      Option to enter the payment slip code or scan it with the
+                      camera.
                     </li>
                   </ul>
                 </div>
@@ -907,7 +1086,8 @@ export default function SecurityPayment() {
                 <div className="border border-[#DFDFDF] rounded-lg p-4 w-full">
                   <ul className="space-y-3 pl-8">
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Clear feedback for secure payment slips or potential fraud, along with appropriate guidance.
+                      Clear feedback for secure payment slips or potential
+                      fraud, along with appropriate guidance.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
                       Help portal with tips on how to avoid fraud.
@@ -1068,14 +1248,12 @@ export default function SecurityPayment() {
 
               {/* Admin Module Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
-
                 <h3 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] w-full text-center">
                   Admin module
                 </h3>
 
                 {/* Admin Dashboard Mockups */}
                 <div className="w-full h-[756px] bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl relative">
-
                   {/* First Tablet - Bottom Left */}
                   <div className="absolute left-[135px] top-[413px] w-[416px] h-[325px]">
                     <img
@@ -1138,13 +1316,18 @@ export default function SecurityPayment() {
                 <div className="border border-[#DFDFDF] rounded-lg p-4 w-full">
                   <ul className="space-y-3 pl-8">
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Dashboard with key data: types of payment slips most commonly frauded and comparison between secure slips and frauds.
+                      Dashboard with key data: types of payment slips most
+                      commonly frauded and comparison between secure slips and
+                      frauds.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Comparison of access between web and app, along with a timeline graph to identify the most common months and types of fraud.
+                      Comparison of access between web and app, along with a
+                      timeline graph to identify the most common months and
+                      types of fraud.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Page with individual access history for each verified payment slip.
+                      Page with individual access history for each verified
+                      payment slip.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
                       Management of automated tips and FAQs.
@@ -1155,7 +1338,6 @@ export default function SecurityPayment() {
 
               {/* Landing Page Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
-
                 <h3 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] w-full text-center">
                   Landing page
                 </h3>
@@ -1181,7 +1363,8 @@ export default function SecurityPayment() {
                       Inclusion of an appealing section for app download.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
-                      Institutional section explaining the product, company, and partners.
+                      Institutional section explaining the product, company, and
+                      partners.
                     </li>
                     <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
                       Tips and FAQs section
@@ -1203,7 +1386,6 @@ export default function SecurityPayment() {
 
               {/* Result Section */}
               <div className="w-full flex flex-col justify-center items-start gap-6">
-
                 <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
                   Result
                 </h3>
@@ -1214,13 +1396,15 @@ export default function SecurityPayment() {
                   </p>
 
                   <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                    It was an agile process, focusing on design and the creation of components and screens, as the stakeholders had a clear
+                    It was an agile process, focusing on design and the creation
+                    of components and screens, as the stakeholders had a clear
                     vision of what they needed.
                   </p>
 
                   <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                    The result is a simple and efficient product designed to make users' daily tasks easier and faster, while providing greater
-                    security when paying their bills.
+                    The result is a simple and efficient product designed to
+                    make users' daily tasks easier and faster, while providing
+                    greater security when paying their bills.
                   </p>
                 </div>
               </div>
