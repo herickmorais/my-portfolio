@@ -56,7 +56,7 @@ export default function Sidebar() {
   return (
     <div className="w-[242px] h-screen bg-[#F5F5F7] shadow-[0_0_4px_2px_rgba(0,0,0,0.02)] flex flex-col pl-10 pr-4 py-12 fixed left-0 top-0">
       {/* Profile Section */}
-      <div className="flex flex-col items-start gap-4 mb-9">
+      <div className="flex flex-col items-start gap-4 mb-9 w-full">
         {/* Profile Photo */}
         <div className="w-[100px] h-[114px] rounded-lg bg-gradient-to-b from-[#5CD2B9] to-[#0E876D] flex items-center justify-center overflow-hidden">
           <img 
