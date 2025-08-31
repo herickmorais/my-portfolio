@@ -102,15 +102,15 @@ const containerVariants = {
 };
 
 const itemVariants = {
-  hidden: {
-    opacity: 0,
+  hidden: { 
+    opacity: 0, 
     y: 30,
     transition: {
       duration: 0.5
     }
   },
-  visible: {
-    opacity: 1,
+  visible: { 
+    opacity: 1, 
     y: 0,
     transition: {
       duration: 0.6,
@@ -120,15 +120,15 @@ const itemVariants = {
 };
 
 const slideInFromLeft = {
-  hidden: {
-    opacity: 0,
+  hidden: { 
+    opacity: 0, 
     x: -50,
     transition: {
       duration: 0.5
     }
   },
-  visible: {
-    opacity: 1,
+  visible: { 
+    opacity: 1, 
     x: 0,
     transition: {
       duration: 0.7,
@@ -138,15 +138,15 @@ const slideInFromLeft = {
 };
 
 const slideInFromRight = {
-  hidden: {
-    opacity: 0,
+  hidden: { 
+    opacity: 0, 
     x: 50,
     transition: {
       duration: 0.5
     }
   },
-  visible: {
-    opacity: 1,
+  visible: { 
+    opacity: 1, 
     x: 0,
     transition: {
       duration: 0.7,
@@ -161,7 +161,39 @@ const staggerContainer = {
     opacity: 1,
     transition: {
       staggerChildren: 0.15,
-      delayChildren: 0.3
+      delayChildren: 0.5
+    }
+  }
+};
+
+const cardVariants = {
+  hidden: { 
+    opacity: 0, 
+    y: 50,
+    scale: 0.9
+  },
+  visible: { 
+    opacity: 1, 
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.6,
+      ease: "easeOut"
+    }
+  }
+};
+
+const galleryItemVariants = {
+  hidden: { 
+    opacity: 0, 
+    y: 40
+  },
+  visible: { 
+    opacity: 1, 
+    y: 0,
+    transition: {
+      duration: 0.8,
+      ease: "easeOut"
     }
   }
 };
@@ -172,19 +204,33 @@ export default function MainContent() {
   return (
     <div className="flex-1 ml-[242px] min-h-screen bg-white">
       <div className="flex justify-center pt-12">
-        <div className="w-[920px] px-8 flex flex-col gap-4">
+        <motion.div 
+          className="w-[920px] px-8 flex flex-col gap-4"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
           {/* Title Section */}
-          <div className="flex justify-between items-center mb-6 flex-wrap gap-4">
-            <div className="flex flex-col items-start gap-[15px]">
+          <motion.div 
+            className="flex justify-between items-center mb-6 flex-wrap gap-4"
+            variants={itemVariants}
+          >
+            <motion.div 
+              className="flex flex-col items-start gap-[15px]"
+              variants={slideInFromLeft}
+            >
               <h1 className="text-[32px] font-semibold leading-[38.4px] text-[#252525]">
                 Welcome to my Portfolio! ✍️
               </h1>
               <p className="text-[24px] leading-[28.8px] text-[#414141]">
                 Take a look at my recents jobs.
               </p>
-            </div>
+            </motion.div>
 
-            <div className="flex flex-col justify-center items-end gap-2">
+            <motion.div 
+              className="flex flex-col justify-center items-end gap-2"
+              variants={slideInFromRight}
+            >
               {/* Contact Link */}
               <a href="#" className="flex items-center gap-1 py-1 group">
                 <span className="text-[16px] leading-[19.2px] text-[#0066CC] group-hover:underline">
@@ -199,11 +245,14 @@ export default function MainContent() {
                   Available for work
                 </span>
               </div>
-            </div>
-          </div>
+            </motion.div>
+          </motion.div>
 
           {/* Tabs */}
-          <div className="flex items-start gap-4 mb-6 border-b border-gray-200">
+          <motion.div 
+            className="flex items-start gap-4 mb-6 border-b border-gray-200"
+            variants={itemVariants}
+          >
             {tabs.map((tab) => (
               <button
                 key={tab.id}
@@ -222,58 +271,92 @@ export default function MainContent() {
                 </span>
               </button>
             ))}
-          </div>
+          </motion.div>
 
           {/* Projects Grid */}
           {activeTab === "cases" && (
-            <div className="flex flex-col gap-12 pb-20">
+            <motion.div 
+              className="flex flex-col gap-12 pb-20"
+              variants={staggerContainer}
+              initial="hidden"
+              animate="visible"
+            >
               {/* First Row */}
-              <div className="flex justify-center items-center gap-8 flex-wrap">
-                <ProjectCard {...projectsData[0]} buttonType="available" />
-                <ProjectCard {...projectsData[1]} buttonType="available" />
-              </div>
-
+              <motion.div 
+                className="flex justify-center items-center gap-8 flex-wrap"
+                variants={itemVariants}
+              >
+                <motion.div variants={cardVariants}>
+                  <ProjectCard {...projectsData[0]} buttonType="available" />
+                </motion.div>
+                <motion.div variants={cardVariants}>
+                  <ProjectCard {...projectsData[1]} buttonType="available" />
+                </motion.div>
+              </motion.div>
+              
               {/* Second Row */}
-              <div className="flex justify-center items-center gap-8 flex-wrap">
-                <ProjectCard {...projectsData[2]} buttonType="available" />
-                <ProjectCard {...projectsData[3]} buttonType="in-progress" />
-              </div>
-            </div>
+              <motion.div 
+                className="flex justify-center items-center gap-8 flex-wrap"
+                variants={itemVariants}
+              >
+                <motion.div variants={cardVariants}>
+                  <ProjectCard {...projectsData[2]} buttonType="available" />
+                </motion.div>
+                <motion.div variants={cardVariants}>
+                  <ProjectCard {...projectsData[3]} buttonType="in-progress" />
+                </motion.div>
+              </motion.div>
+            </motion.div>
           )}
 
           {activeTab === "ui-design" && (
-            <>
+            <motion.div
+              variants={staggerContainer}
+              initial="hidden"
+              animate="visible"
+            >
               {/* Full Width Image 1 - Brown Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#8b4b23' }}>
+              <motion.div 
+                className="flex flex-col justify-start w-full items-center px-6" 
+                style={{ backgroundColor: '#8b4b23' }}
+                variants={galleryItemVariants}
+              >
                 <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
+                  <img 
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F668fea8171d441e58a2dcc34f7cf3bd2?width=800"
                     className="w-full h-auto object-cover object-center overflow-hidden"
                     style={{ aspectRatio: '1.41' }}
                   />
                 </div>
-              </div>
+              </motion.div>
 
               {/* Full Width Image 2 - Gray Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e8e8e8' }}>
+              <motion.div 
+                className="flex flex-col justify-start w-full items-center px-6" 
+                style={{ backgroundColor: '#e8e8e8' }}
+                variants={galleryItemVariants}
+              >
                 <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
+                  <img 
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F48535ad1024c4dfb992875ea080ef5f8?width=800"
                     className="w-full h-auto object-cover object-center overflow-hidden"
                     style={{ aspectRatio: '1.41' }}
                   />
                 </div>
-              </div>
+              </motion.div>
 
               {/* Two Column Layout 1 */}
-              <div className="flex flex-col relative mt-5">
+              <motion.div 
+                className="flex flex-col relative mt-5"
+                variants={galleryItemVariants}
+              >
                 <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                   <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
                     <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e8e8e8' }}>
                       <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
-                        <img
+                        <img 
                           loading="lazy"
                           src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Ffd883a9ab01045adb095c5c9bdf7a764?width=400"
                           className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
@@ -285,7 +368,7 @@ export default function MainContent() {
                   <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
                     <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
                       <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
-                        <img
+                        <img 
                           loading="lazy"
                           src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F9e9bfc15f789483b9e82821b4df7f23c?width=400"
                           className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
@@ -295,142 +378,42 @@ export default function MainContent() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
 
-              {/* Two Column Layout 2 */}
-              <div className="flex flex-col relative mt-5">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
-                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
-                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
-                        <img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F4f00f65e72134114a8b1734a5c938fc0?width=400"
-                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
-                          style={{ aspectRatio: '0.45' }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
-                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
-                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
-                        <img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F94e64b67206e496f9498a2cc0f0174f8?width=400"
-                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
-                          style={{ aspectRatio: '0.45' }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Full Width Image 3 - Purple Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(63, 0, 95, 1)' }}>
+              {/* Continue with more gallery items */}
+              <motion.div 
+                className="flex flex-col justify-start w-full items-center px-6" 
+                style={{ backgroundColor: 'rgba(63, 0, 95, 1)' }}
+                variants={galleryItemVariants}
+              >
                 <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
+                  <img 
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F8eb9dd6a16d7465aacde561461f8b139?width=800"
                     className="w-full h-auto object-cover object-center overflow-hidden"
                     style={{ aspectRatio: '1.41' }}
                   />
                 </div>
-              </div>
+              </motion.div>
 
-              {/* Full Width Image 4 - Purple Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(63, 0, 95, 1)' }}>
+              {/* Final Full Width Image - Light Green Background */}
+              <motion.div 
+                className="flex flex-col justify-start w-full items-center px-6" 
+                style={{ backgroundColor: 'rgba(234, 240, 235, 1)' }}
+                variants={galleryItemVariants}
+              >
                 <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F48c75a6dff6c40cfa933c557432afbd2?width=800"
-                    className="w-full h-auto object-cover object-center overflow-hidden"
-                    style={{ aspectRatio: '1.41' }}
-                  />
-                </div>
-              </div>
-
-              {/* Two Column Layout 3 - Teal Background */}
-              <div className="flex flex-col relative mt-5">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
-                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(15, 100, 96, 1)' }}>
-                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
-                        <img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fda63f7e5f77d4683a53ad923fe40a65f?width=400"
-                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
-                          style={{ aspectRatio: '0.46' }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
-                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(15, 100, 96, 1)' }}>
-                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
-                        <img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fd641c3c690ae444e99e06be5a00986ce?width=400"
-                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
-                          style={{ aspectRatio: '0.46' }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Full Width Image 5 - Black Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
-                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F94704a7036d74b539104bcfe9a0dce74?width=800"
-                    className="w-full h-auto object-cover object-center overflow-hidden"
-                    style={{ aspectRatio: '1.1' }}
-                  />
-                </div>
-              </div>
-
-              {/* Full Width Image 6 - Blue Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(22, 94, 143, 1)' }}>
-                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Faa3b0612f58d410488205da145e03f91?width=800"
-                    className="w-full h-auto object-cover object-center overflow-hidden"
-                    style={{ aspectRatio: '1.41' }}
-                  />
-                </div>
-              </div>
-
-              {/* Full Width Image 7 - Light Green Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(234, 240, 235, 1)' }}>
-                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
+                  <img 
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F2cd9610f9f6f43e397e8a48867d1430d?width=800"
                     className="w-full h-auto object-cover object-center overflow-hidden"
                     style={{ aspectRatio: '2' }}
                   />
                 </div>
-              </div>
-
-              {/* Final Full Width Image - Light Green Background */}
-              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(234, 240, 235, 1)' }}>
-                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F12dfd70208bd4afc87e5ca1606d779b1?width=800"
-                    className="w-full h-auto object-cover object-center overflow-hidden"
-                    style={{ aspectRatio: '1.79' }}
-                  />
-                </div>
-              </div>
-            </>
+              </motion.div>
+            </motion.div>
           )}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
