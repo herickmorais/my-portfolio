@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
   title: string;
@@ -11,6 +12,7 @@ interface ProjectCardProps {
   }[];
   backgroundColor?: string;
   buttonType?: "available" | "in-progress";
+  link?: string;
 }
 
 export default function ProjectCard({
