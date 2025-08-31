@@ -1152,6 +1152,25 @@ export default function SecurityPayment() {
                   </ul>
                 </div>
               </div>
+
+              {/* Landing Page Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] w-full text-center">
+                  Landing page
+                </h3>
+
+                {/* Landing Page Mockup */}
+                <div className="w-full p-10 bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl flex justify-center items-center">
+                  <div className="w-[688px] border border-[#DFDFDF] rounded-lg overflow-hidden">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/f70eafc1ba0b47a67b91ef9497566b853daf59fe?width=1376"
+                      alt="Complete landing page design showing verification tool, company information, partner logos, tips section, FAQ, and mobile app download"
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
