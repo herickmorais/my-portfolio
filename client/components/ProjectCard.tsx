@@ -31,12 +31,20 @@ export default function ProjectCard({ title, description, images, backgroundColo
 
         {/* Hover Button */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
-          <button
-            disabled
-            className="px-4 py-2 bg-gray-500 text-white font-medium text-sm rounded-lg cursor-not-allowed opacity-80"
-          >
-            Work in progress...
-          </button>
+          {buttonType === 'in-progress' ? (
+            <button
+              disabled
+              className="px-4 py-2 bg-gray-500 text-white font-medium text-sm rounded-lg cursor-not-allowed opacity-80"
+            >
+              Work in progress...
+            </button>
+          ) : (
+            <button
+              className="px-4 py-2 bg-black text-white font-medium text-sm rounded-lg hover:bg-gray-900 transition-colors"
+            >
+              See project
+            </button>
+          )}
         </div>
       </div>
 
