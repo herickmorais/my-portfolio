@@ -92,7 +92,7 @@ export default function MainContent() {
   const [activeTab, setActiveTab] = useState("cases");
 
   return (
-    <div className="flex-1 ml-[216px] min-h-screen bg-white">
+    <div className="flex-1 ml-[242px] min-h-screen bg-white">
       <div className="flex justify-center pt-12">
         <div className="w-[920px] px-8">
           {/* Title Section */}
