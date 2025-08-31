@@ -31,10 +31,10 @@ export default function ProjectCard({ title, description, images, backgroundColo
 
       {/* Text Content */}
       <div className="flex flex-col justify-center items-start gap-[7px] self-stretch">
-        <p className="self-stretch text-[#777777] font-sf-pro text-[16px] leading-[19.2px]">
+        <p className="self-stretch text-[#777777] text-[16px] leading-[19.2px]">
           {description}
         </p>
-        <h3 className="self-stretch text-[#252525] font-sf-pro text-[24px] font-bold leading-[28.8px]">
+        <h3 className="self-stretch text-[#252525] text-[24px] font-bold leading-[28.8px]">
           {title}
         </h3>
       </div>
