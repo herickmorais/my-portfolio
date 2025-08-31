@@ -98,10 +98,10 @@ export default function MainContent() {
           {/* Title Section */}
           <div className="flex justify-between items-center mb-6 flex-wrap gap-4">
             <div className="flex flex-col items-start gap-[15px]">
-              <h1 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] font-sf-pro">
+              <h1 className="text-[32px] font-semibold leading-[38.4px] text-[#252525]">
                 Welcome to my Portfolio! ✍️
               </h1>
-              <p className="text-[24px] leading-[28.8px] text-[#414141] font-sf-pro">
+              <p className="text-[24px] leading-[28.8px] text-[#414141]">
                 Take a look at my recents jobs.
               </p>
             </div>
@@ -109,7 +109,7 @@ export default function MainContent() {
             <div className="flex flex-col justify-center items-end gap-2">
               {/* Contact Link */}
               <a href="#" className="flex items-center gap-1 py-1 group">
-                <span className="text-[16px] leading-[19.2px] text-[#0066CC] font-sf-pro group-hover:underline">
+                <span className="text-[16px] leading-[19.2px] text-[#0066CC] group-hover:underline">
                   Contact me!
                 </span>
               </a>
@@ -117,7 +117,7 @@ export default function MainContent() {
               {/* Available Status */}
               <div className="flex items-center gap-2 px-3 py-1 rounded-[30px] bg-[rgba(84,202,177,0.16)]">
                 <div className="w-[6px] h-[6px] rounded-full bg-[#008A6C]"></div>
-                <span className="text-[16px] leading-[19.2px] text-[#008A6C] font-sf-pro">
+                <span className="text-[16px] leading-[19.2px] text-[#008A6C]">
                   Available for work
                 </span>
               </div>
@@ -165,7 +165,7 @@ export default function MainContent() {
 
           {activeTab === "ui-design" && (
             <div className="flex items-center justify-center h-64">
-              <p className="text-[#777777] text-lg font-sf-pro">
+              <p className="text-[#777777] text-lg">
                 UI Design projects coming soon...
               </p>
             </div>
