@@ -282,27 +282,27 @@ export default function MainContent() {
               animate="visible"
             >
               {/* First Row */}
-              <motion.div 
-                className="flex justify-center items-center gap-8 flex-wrap"
+              <motion.div
+                className="flex gap-8"
                 variants={itemVariants}
               >
-                <motion.div variants={cardVariants}>
+                <motion.div variants={cardVariants} className="w-full max-w-[444px] grow-0">
                   <ProjectCard {...projectsData[0]} buttonType="available" />
                 </motion.div>
-                <motion.div variants={cardVariants}>
+                <motion.div variants={cardVariants} className="w-full max-w-[444px] grow-0">
                   <ProjectCard {...projectsData[1]} buttonType="available" />
                 </motion.div>
               </motion.div>
               
               {/* Second Row */}
-              <motion.div 
-                className="flex justify-center items-center gap-8 flex-wrap"
+              <motion.div
+                className="flex gap-8 justify-center"
                 variants={itemVariants}
               >
-                <motion.div variants={cardVariants}>
+                <motion.div variants={cardVariants} className="w-full">
                   <ProjectCard {...projectsData[2]} buttonType="available" />
                 </motion.div>
-                <motion.div variants={cardVariants}>
+                <motion.div variants={cardVariants} className="w-full">
                   <ProjectCard {...projectsData[3]} buttonType="in-progress" />
                 </motion.div>
               </motion.div>
