@@ -14,12 +14,12 @@ export default function ProjectCard({ title, description, images, backgroundColo
   return (
     <div className="flex min-w-[240px] max-w-[444px] flex-col items-start gap-4 flex-1 group cursor-pointer transition-transform hover:scale-105">
       {/* Image Container */}
-      <div 
+      <div
         className="flex justify-center items-start gap-4 self-stretch aspect-[74/43] rounded-xl relative overflow-hidden"
         style={{ backgroundColor }}
       >
         {images.map((image, index) => (
-          <img 
+          <img
             key={index}
             src={image.src}
             alt={image.alt}
@@ -27,6 +27,16 @@ export default function ProjectCard({ title, description, images, backgroundColo
             style={image.style}
           />
         ))}
+
+        {/* Hover Button */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/20">
+          <button
+            disabled
+            className="px-4 py-2 bg-gray-500 text-white font-medium text-sm rounded-lg cursor-not-allowed opacity-80"
+          >
+            Work in progress...
+          </button>
+        </div>
       </div>
 
       {/* Text Content */}
