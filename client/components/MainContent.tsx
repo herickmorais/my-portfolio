@@ -139,7 +139,7 @@ export default function MainContent() {
                 <div className="w-8 h-8 flex items-center justify-center">
                   {tab.icon}
                 </div>
-                <span className="text-[16px] font-medium leading-6 font-inter">
+                <span className="text-[16px] font-semibold leading-6 font-inter">
                   {tab.label}
                 </span>
               </button>
