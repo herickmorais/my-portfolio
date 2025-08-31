@@ -4,30 +4,25 @@ export default function Skills() {
   const skillsData = [
     {
       category: "Design & UI",
-      skills: [
-        "Design System",
-        "Components", 
-        "Prototypes",
-        "Responsiveness"
-      ]
+      skills: ["Design System", "Components", "Prototypes", "Responsiveness"],
     },
     {
       category: "Research & Testing",
       skills: [
         "User Interviews",
         "Researches",
-        "User Journey", 
-        "Usability Test"
-      ]
+        "User Journey",
+        "Usability Test",
+      ],
     },
     {
-      category: "Strategy & Analysis", 
+      category: "Strategy & Analysis",
       skills: [
         "Design Thinking",
         "User Flow",
         "Heuristic Analysis",
-        "Wireframe"
-      ]
+        "Wireframe",
+      ],
     },
     {
       category: "Process & Delivery",
@@ -35,9 +30,9 @@ export default function Skills() {
         "Agile Methodology",
         "Metrics",
         "Information Architecture",
-        "Handoff"
-      ]
-    }
+        "Handoff",
+      ],
+    },
   ];
 
   return (
@@ -60,9 +55,9 @@ export default function Skills() {
               {/* Tools Section */}
               <div className="flex flex-col items-start gap-6 w-full bg-white shadow-sm">
                 <div className="w-full">
-                  <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/939993f4a50898a0a812f3f3a2da99496893236c?width=1840" 
-                    alt="Design tools including Figma, DaVinci Resolve, Paw, Linear, Araxis Merge, Hotjar, Zoom, Jira, Asana, Adobe XD, and Mondly" 
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/939993f4a50898a0a812f3f3a2da99496893236c?width=1840"
+                    alt="Design tools including Figma, DaVinci Resolve, Paw, Linear, Araxis Merge, Hotjar, Zoom, Jira, Asana, Adobe XD, and Mondly"
                     className="w-full h-auto object-contain"
                   />
                 </div>
@@ -72,9 +67,15 @@ export default function Skills() {
               <div className="w-full flex items-center justify-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 w-full max-w-[920px]">
                   {skillsData.map((category, categoryIndex) => (
-                    <div key={categoryIndex} className="flex flex-col justify-center items-start gap-10">
+                    <div
+                      key={categoryIndex}
+                      className="flex flex-col justify-center items-start gap-10"
+                    >
                       {category.skills.map((skill, skillIndex) => (
-                        <div key={skillIndex} className="flex flex-col items-start">
+                        <div
+                          key={skillIndex}
+                          className="flex flex-col items-start"
+                        >
                           <div className="flex flex-col justify-center items-center w-full">
                             <div className="flex flex-col justify-center items-start">
                               <div className="flex flex-col items-start">

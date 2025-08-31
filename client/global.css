@@ -102,7 +102,12 @@
 @layer base {
   * {
     @apply border-border;
-    font-family: 'SF Pro Display', -apple-system, Roboto, Helvetica, sans-serif;
+    font-family:
+      "SF Pro Display",
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
   }
 
   body {

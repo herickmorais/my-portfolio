@@ -10,16 +10,22 @@ interface ProjectCardProps {
     style?: React.CSSProperties;
   }[];
   backgroundColor?: string;
-  buttonType?: 'available' | 'in-progress';
+  buttonType?: "available" | "in-progress";
 }
 
-export default function ProjectCard({ title, description, images, backgroundColor = "#E2E6E9", buttonType = 'available' }: ProjectCardProps) {
+export default function ProjectCard({
+  title,
+  description,
+  images,
+  backgroundColor = "#E2E6E9",
+  buttonType = "available",
+}: ProjectCardProps) {
   return (
     <motion.div
       className="flex w-full min-w-[240px] max-w-[444px] flex-col items-start gap-4 flex-1 group cursor-pointer"
       whileHover={{
         scale: 1.05,
-        transition: { duration: 0.3, ease: "easeOut" }
+        transition: { duration: 0.3, ease: "easeOut" },
       }}
       whileTap={{ scale: 0.98 }}
     >
@@ -33,19 +39,19 @@ export default function ProjectCard({ title, description, images, backgroundColo
             key={index}
             src={image.src}
             alt={image.alt}
-            className={`absolute ${image.className || ''}`}
+            className={`absolute ${image.className || ""}`}
             style={image.style}
           />
         ))}
 
         {/* Hover Button */}
-        <motion.div 
+        <motion.div
           className="absolute inset-0 flex items-center justify-center bg-black/20"
           initial={{ opacity: 0 }}
           whileHover={{ opacity: 1 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-          {buttonType === 'in-progress' ? (
+          {buttonType === "in-progress" ? (
             <motion.button
               disabled
               className="px-4 py-2 bg-gray-500 text-white font-medium text-sm rounded-lg cursor-not-allowed opacity-80"
@@ -70,7 +76,7 @@ export default function ProjectCard({ title, description, images, backgroundColo
       </div>
 
       {/* Text Content */}
-      <motion.div 
+      <motion.div
         className="flex flex-col justify-center items-start gap-[7px] self-stretch"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
