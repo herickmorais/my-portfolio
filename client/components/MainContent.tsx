@@ -164,11 +164,193 @@ export default function MainContent() {
           )}
 
           {activeTab === "ui-design" && (
-            <div className="flex items-center justify-center h-64">
-              <p className="text-[#777777] text-lg">
-                UI Design projects coming soon...
-              </p>
-            </div>
+            <>
+              {/* Full Width Image 1 - Brown Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#8b4b23' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F668fea8171d441e58a2dcc34f7cf3bd2?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </div>
+
+              {/* Full Width Image 2 - Gray Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e8e8e8' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F48535ad1024c4dfb992875ea080ef5f8?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </div>
+
+              {/* Two Column Layout 1 */}
+              <div className="flex flex-col relative mt-5">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: '#e8e8e8' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Ffd883a9ab01045adb095c5c9bdf7a764?width=400"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F9e9bfc15f789483b9e82821b4df7f23c?width=400"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.47' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Two Column Layout 2 */}
+              <div className="flex flex-col relative mt-5">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F4f00f65e72134114a8b1734a5c938fc0?width=400"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.45' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F94e64b67206e496f9498a2cc0f0174f8?width=400"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.45' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Full Width Image 3 - Purple Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(63, 0, 95, 1)' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F8eb9dd6a16d7465aacde561461f8b139?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </div>
+
+              {/* Full Width Image 4 - Purple Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(63, 0, 95, 1)' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F48c75a6dff6c40cfa933c557432afbd2?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </div>
+
+              {/* Two Column Layout 3 - Teal Background */}
+              <div className="flex flex-col relative mt-5">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                  <div className="flex flex-col w-1/2 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(15, 100, 96, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fda63f7e5f77d4683a53ad923fe40a65f?width=400"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.46' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col w-1/2 ml-5 max-md:w-full max-md:ml-0">
+                    <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(15, 100, 96, 1)' }}>
+                      <div className="flex flex-row relative mt-5 w-full pb-8 justify-center items-center">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Fd641c3c690ae444e99e06be5a00986ce?width=400"
+                          className="w-full h-auto object-cover object-center overflow-hidden max-w-[300px]"
+                          style={{ aspectRatio: '0.46' }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Full Width Image 5 - Black Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6 bg-black">
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F94704a7036d74b539104bcfe9a0dce74?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.1' }}
+                  />
+                </div>
+              </div>
+
+              {/* Full Width Image 6 - Blue Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(22, 94, 143, 1)' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2Faa3b0612f58d410488205da145e03f91?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.41' }}
+                  />
+                </div>
+              </div>
+
+              {/* Full Width Image 7 - Light Green Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(234, 240, 235, 1)' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F2cd9610f9f6f43e397e8a48867d1430d?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '2' }}
+                  />
+                </div>
+              </div>
+
+              {/* Final Full Width Image - Light Green Background */}
+              <div className="flex flex-col justify-start w-full items-center px-6" style={{ backgroundColor: 'rgba(234, 240, 235, 1)' }}>
+                <div className="flex flex-col relative mt-5 h-auto w-full pb-8">
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F7f4c07f0a70b49a4bdb25298a14385d9%2F12dfd70208bd4afc87e5ca1606d779b1?width=800"
+                    className="w-full h-auto object-cover object-center overflow-hidden"
+                    style={{ aspectRatio: '1.79' }}
+                  />
+                </div>
+              </div>
+            </>
           )}
         </div>
       </div>
