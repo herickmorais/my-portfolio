@@ -94,4 +94,10 @@ export default function ProjectCard({
       </motion.div>
     </motion.div>
   );
+
+  if (link && buttonType === "available") {
+    return <Link to={link}>{CardContent}</Link>;
+  }
+
+  return CardContent;
 }
