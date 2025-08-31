@@ -396,7 +396,7 @@ export default function SecurityPayment() {
                 {/* User Flow Mapping */}
                 <div className="w-full flex flex-col gap-6 mt-16">
                   <div className="flex flex-col gap-2">
-                    <h4 className="text-[20px] font-medium leading-[24px] text-[#252525] w-full">
+                    <h4 className="text-[20px] font-semibold leading-[24px] text-[#252525] w-full">
                       User flow mapping
                     </h4>
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
@@ -418,7 +418,7 @@ export default function SecurityPayment() {
                 {/* Style Guide Creation */}
                 <div className="w-full flex flex-col gap-6 mt-16">
                   <div className="flex flex-col gap-2">
-                    <h4 className="text-[20px] font-medium leading-[24px] text-[#252525] w-full">
+                    <h4 className="text-[20px] font-semibold leading-[24px] text-[#252525] w-full">
                       Creation of the Style Guide
                     </h4>
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
@@ -465,7 +465,7 @@ export default function SecurityPayment() {
                 {/* Wireframe Validation */}
                 <div className="w-full flex flex-col gap-6 mt-16">
                   <div className="flex flex-col gap-2">
-                    <h4 className="text-[20px] font-medium leading-[24px] text-[#252525] w-full">
+                    <h4 className="text-[20px] font-semibold leading-[24px] text-[#252525] w-full">
                       Validations through wireframes.
                     </h4>
                     <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
