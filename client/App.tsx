@@ -38,4 +38,17 @@ const App = () => (
   </QueryClientProvider>
 );
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Store the root instance to prevent multiple createRoot calls
+let root: ReturnType<typeof createRoot> | null = null;
+
+function renderApp() {
+  const container = document.getElementById("root")!;
+
+  if (!root) {
+    root = createRoot(container);
+  }
+
+  root.render(<App />);
+}
+
+renderApp();
