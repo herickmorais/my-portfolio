@@ -700,6 +700,39 @@ export default function SecurityPayment() {
                   </div>
                 </div>
               </div>
+
+              {/* Step 4: Interaction Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
+                  Step 4: Interaction
+                </h3>
+
+                <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                  We began creating the first screens and held several discussions with clients to gather feedback on the developed options.
+                  We also validated the screens together, ensuring <span className="font-bold">quality, accessibility, and alignment with the project's objectives.</span>
+                </p>
+              </div>
+
+              {/* Step 5: Delivery Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
+                  Step 5: Delivery
+                </h3>
+
+                <div className="flex flex-col gap-6 w-full">
+                  <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                    After completing the validations with the clients, we made the final adjustments and prepared the files to be handed over to
+                    the development team, along with <span className="font-bold">documentation of components and navigation flows, as well as a navigable
+                    prototype.</span>
+                  </p>
+
+                  <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                    Check below for the final delivery of the project and the content of each product.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
