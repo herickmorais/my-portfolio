@@ -68,7 +68,7 @@ export default function Sidebar() {
 
         {/* Name and Details */}
         <div className="flex flex-col items-start gap-4">
-          <div className="flex flex-col items-start gap-4">
+          <div className="flex flex-col items-start gap-4 w-full">
             <h1 className="text-[28px] font-semibold leading-[33.6px] text-[#252525]">
               Herick Morais
             </h1>
