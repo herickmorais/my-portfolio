@@ -244,9 +244,142 @@ export default function SecurityPayment() {
 
                 {/* Conclusion */}
                 <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
-                  Given this scenario, major companies in Brazil's telecommunications sector invested in this MVP project to combat these 
+                  Given this scenario, major companies in Brazil's telecommunications sector invested in this MVP project to combat these
                   figures and bring more security to their customers.
                 </p>
+              </div>
+
+              {/* Development Process Section */}
+              <div className="w-full flex flex-col justify-center items-center gap-8">
+
+                {/* Mobile App Mockups */}
+                <div className="w-full relative">
+                  <div className="flex justify-center items-start gap-10 w-full">
+                    {/* Mobile Screen 1 */}
+                    <div className="w-[280px] h-[560px] rounded-md border border-[#DFDFDF] overflow-hidden">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/eedff2e0a7192e20085c787a716e7d78d7e0e065?width=560"
+                        alt="Payment slip verification mobile screen"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+
+                    {/* Mobile Screen 2 */}
+                    <div className="w-[280px] h-[560px] rounded-md border border-[#DFDFDF] overflow-hidden">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/9e6f559fbee9a8ea097c48d80e17d8668b195536?width=560"
+                        alt="Bill verification process mobile screen"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+
+                    {/* Mobile Screen 3 */}
+                    <div className="w-[280px] h-[560px] rounded-md border border-[#DFDFDF] overflow-hidden">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/c7beeffc8dc7fd4dd4adcd04a058d7fba657b2ee?width=560"
+                        alt="Verification result mobile screen"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Gradient Overlay */}
+                  <div className="absolute bottom-0 left-0 w-full h-[225px] bg-gradient-to-t from-white via-white/60 to-transparent pointer-events-none"></div>
+                </div>
+
+                {/* Development Process Content */}
+                <div className="w-full flex flex-col justify-center items-start gap-6">
+
+                  <h2 className="text-[36px] font-semibold leading-[43.2px] text-[#252525] w-full">
+                    Development process
+                  </h2>
+
+                  <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
+                    Step 1: Discovery
+                  </h3>
+
+                  <div className="flex flex-col gap-6 w-full">
+                    <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                      We conducted <span className="font-bold">detailed analyses to understand the target audience and market solutions</span>, ensuring that development
+                      met real needs.
+                    </p>
+
+                    <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                      We identified that customers wanted <span className="font-bold">a simple tool for verifying payment slips and quick access to support</span>. With this
+                      in mind, we decided to expand the functionality by creating a section with tips for fraud prevention, adding more value and
+                      increasing user engagement with the product.
+                    </p>
+                  </div>
+
+                  {/* Feature Cards */}
+                  <div className="flex justify-between items-center w-full gap-4 mt-8">
+
+                    {/* Payment slip verification */}
+                    <div className="w-[242px] h-[128px] border border-[#DFDFDF] rounded-lg flex flex-col items-center justify-center gap-2 relative">
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <svg width="24" height="28" viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M12.9642 12.957H6.34348M8.55038 17.457H6.34348M15.171 8.45703H6.34348M19.5849 12.3945V8.23203C19.5849 6.34186 19.5849 5.39676 19.2241 4.67482C18.9067 4.03977 18.4003 3.52346 17.7774 3.19988C17.0693 2.83203 16.1423 2.83203 14.2883 2.83203H7.22624C5.37227 2.83203 4.44529 2.83203 3.73717 3.19988C3.11429 3.52346 2.60787 4.03977 2.29049 4.67482C1.92969 5.39676 1.92969 6.34186 1.92969 8.23203V19.932C1.92969 21.8222 1.92969 22.7673 2.29049 23.4893C2.60787 24.1243 3.11429 24.6406 3.73717 24.9641C4.44529 25.332 5.37227 25.332 7.22624 25.332H10.2055M21.7917 25.332L20.1366 23.6445M21.2401 20.832C21.2401 23.0066 19.5109 24.7695 17.378 24.7695C15.245 24.7695 13.5159 23.0066 13.5159 20.832C13.5159 18.6574 15.245 16.8945 17.378 16.8945C19.5109 16.8945 21.2401 18.6574 21.2401 20.832Z" stroke="#CB4E66" strokeWidth="2.22835" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-[16px] font-medium leading-[19.2px] text-[#252525]">
+                          Payment slip verification
+                        </p>
+                        <p className="text-[16px] leading-[19.2px] text-[#777] mt-1">
+                          Goal
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Dotted Line */}
+                    <div className="flex-1 h-[4px] flex items-center justify-center">
+                      <svg width="97" height="5" viewBox="0 0 97 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.980469 2.08203H96.0209" stroke="#CB4E66" strokeWidth="1.97969" strokeDasharray="2.97 2.97"/>
+                      </svg>
+                    </div>
+
+                    {/* Tips and FAQs */}
+                    <div className="w-[242px] h-[128px] border border-[#DFDFDF] rounded-lg flex flex-col items-center justify-center gap-2 relative">
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 2.83203V3.95703M3.875 14.082H2.75M6.6875 6.76953L6.01239 6.09442M21.3125 6.76953L21.9878 6.09442M25.25 14.082H24.125M11.75 15.7695H16.25M14 15.7695V21.3945M17.9375 19.5652C19.6408 18.3399 20.75 16.3405 20.75 14.082C20.75 10.3541 17.7279 7.33203 14 7.33203C10.2721 7.33203 7.25 10.3541 7.25 14.082C7.25 16.3405 8.35918 18.3399 10.0625 19.5652V21.732C10.0625 22.9921 10.0625 23.6222 10.3077 24.1035C10.5235 24.5269 10.8677 24.8711 11.2911 25.0868C11.7723 25.332 12.4024 25.332 13.6625 25.332H14.3375C15.5976 25.332 16.2277 25.332 16.7089 25.0868C17.1323 24.8711 17.4766 24.5269 17.6922 24.1035C17.9375 23.6222 17.9375 22.9921 17.9375 21.7321V19.5652Z" stroke="#CB4E66" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-[16px] font-medium leading-[19.2px] text-[#252525]">
+                          Tips and FAQs
+                        </p>
+                        <p className="text-[16px] leading-[19.2px] text-[#777] mt-1">
+                          Engagement
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Dotted Line */}
+                    <div className="flex-1 h-[4px] flex items-center justify-center">
+                      <svg width="97" height="5" viewBox="0 0 97 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.980469 2.08203H96.0209" stroke="#CB4E66" strokeWidth="1.97969" strokeDasharray="2.97 2.97"/>
+                      </svg>
+                    </div>
+
+                    {/* Support contact */}
+                    <div className="w-[242px] h-[128px] border border-[#DFDFDF] rounded-lg flex flex-col items-center justify-center gap-2 relative">
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11.75 17.457L8.29033 20.96C7.80776 21.4486 7.56647 21.6928 7.35907 21.7101C7.17914 21.7251 7.00297 21.6527 6.88546 21.5157C6.75 21.3576 6.75 21.0143 6.75 20.3275V18.5726C6.75 17.9565 6.24545 17.5107 5.63585 17.4214C4.16046 17.2053 3.00175 16.0465 2.78563 14.5712C2.75 14.3279 2.75 14.0376 2.75 13.457V8.23203C2.75 6.34186 2.75 5.39676 3.11785 4.67482C3.44143 4.03977 3.95774 3.52346 4.59278 3.19988C5.31473 2.83203 6.25982 2.83203 8.15 2.83203H16.475C18.3651 2.83203 19.3103 2.83203 20.0322 3.19988C20.6672 3.52346 21.1836 4.03977 21.5072 4.67482C21.875 5.39676 21.875 6.34186 21.875 8.23203V12.957M21.875 25.332L19.4266 23.6298C19.0823 23.3905 18.9103 23.2708 18.723 23.186C18.5568 23.1108 18.382 23.0559 18.2025 23.0228C18.0003 22.9856 17.7907 22.9856 17.3715 22.9856H15.35C14.0899 22.9856 13.4598 22.9856 12.9786 22.7404C12.5552 22.5247 12.2109 22.1804 11.9952 21.757C11.75 21.2758 11.75 20.6457 11.75 19.3856V16.557C11.75 15.2969 11.75 14.6668 11.9952 14.1856C12.2109 13.7622 12.5552 13.418 12.9786 13.2023C13.4598 12.957 14.0899 12.957 15.35 12.957H21.65C22.9101 12.957 23.5402 12.957 24.0215 13.2023C24.4449 13.418 24.789 13.7622 25.0048 14.1856C25.25 14.6668 25.25 15.2969 25.25 16.557V19.6106C25.25 20.659 25.25 21.1831 25.0787 21.5967C24.8504 22.148 24.4124 22.586 23.8611 22.8144C23.4476 22.9856 22.9233 22.9856 21.875 22.9856V25.332Z" stroke="#CB4E66" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-[16px] font-medium leading-[19.2px] text-[#252525]">
+                          Support contact
+                        </p>
+                        <p className="text-[16px] leading-[19.2px] text-[#777] mt-1">
+                          Communication
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
