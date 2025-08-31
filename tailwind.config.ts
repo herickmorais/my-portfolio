@@ -15,14 +15,14 @@ export default {
     extend: {
       fontFamily: {
         "sf-pro": [
-          "SF Pro Display",
+          "Inter",
           "-apple-system",
           "Roboto",
           "Helvetica",
           "sans-serif",
         ],
         sans: [
-          "SF Pro Display",
+          "Inter",
           "-apple-system",
           "Roboto",
           "Helvetica",
