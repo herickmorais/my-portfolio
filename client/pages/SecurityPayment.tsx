@@ -1170,6 +1170,35 @@ export default function SecurityPayment() {
                     />
                   </div>
                 </div>
+
+                {/* Landing Page Features Description */}
+                <div className="border border-[#DFDFDF] rounded-lg p-4 w-full mt-6">
+                  <ul className="space-y-3 pl-8">
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Section to attract investors for a more robust version.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Inclusion of an appealing section for app download.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Institutional section explaining the product, company, and partners.
+                    </li>
+                    <li className="text-[18px] leading-[27px] text-[#252525] list-disc">
+                      Tips and FAQs section
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Dark Mode Landing Page */}
+                <div className="w-full p-10 bg-gradient-to-br from-[#4F535A] to-[#1C1F24] rounded-2xl flex justify-center items-center mt-8">
+                  <div className="w-[688px]">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/a797eeda02faebf520919c7da819abaf86bc17dc?width=1376"
+                      alt="Dark mode landing page design showing complete website interface with verification tool, company branding, partner logos, tips section, FAQ, and mobile app download sections"
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
