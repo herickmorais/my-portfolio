@@ -1200,6 +1200,30 @@ export default function SecurityPayment() {
                   </div>
                 </div>
               </div>
+
+              {/* Result Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
+                  Result
+                </h3>
+
+                <div className="flex flex-col gap-6 w-full">
+                  <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                    The project moved into the development phase.
+                  </p>
+
+                  <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                    It was an agile process, focusing on design and the creation of components and screens, as the stakeholders had a clear
+                    vision of what they needed.
+                  </p>
+
+                  <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                    The result is a simple and efficient product designed to make users' daily tasks easier and faster, while providing greater
+                    security when paying their bills.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
