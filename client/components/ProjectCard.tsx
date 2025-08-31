@@ -21,8 +21,9 @@ export default function ProjectCard({
   images,
   backgroundColor = "#E2E6E9",
   buttonType = "available",
+  link,
 }: ProjectCardProps) {
-  return (
+  const CardContent = (
     <motion.div
       className="flex w-full min-w-[240px] max-w-[444px] flex-col items-start gap-4 flex-1 group cursor-pointer"
       whileHover={{
