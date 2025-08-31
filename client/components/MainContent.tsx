@@ -151,14 +151,14 @@ export default function MainContent() {
             <div className="flex flex-col gap-12 pb-20">
               {/* First Row */}
               <div className="flex justify-center items-center gap-8 flex-wrap">
-                <ProjectCard {...projectsData[0]} />
-                <ProjectCard {...projectsData[1]} />
+                <ProjectCard {...projectsData[0]} buttonType="available" />
+                <ProjectCard {...projectsData[1]} buttonType="available" />
               </div>
-              
+
               {/* Second Row */}
               <div className="flex justify-center items-center gap-8 flex-wrap">
-                <ProjectCard {...projectsData[2]} />
-                <ProjectCard {...projectsData[3]} />
+                <ProjectCard {...projectsData[2]} buttonType="available" />
+                <ProjectCard {...projectsData[3]} buttonType="in-progress" />
               </div>
             </div>
           )}
