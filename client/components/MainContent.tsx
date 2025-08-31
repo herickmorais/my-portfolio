@@ -98,7 +98,7 @@ export default function MainContent() {
           {/* Title Section */}
           <div className="flex justify-between items-center mb-6 flex-wrap gap-4">
             <div className="flex flex-col items-start gap-[15px]">
-              <h1 className="text-[32px] font-medium leading-[38.4px] text-[#252525] font-sf-pro">
+              <h1 className="text-[32px] font-semibold leading-[38.4px] text-[#252525] font-sf-pro">
                 Welcome to my Portfolio! ✍️
               </h1>
               <p className="text-[24px] leading-[28.8px] text-[#414141] font-sf-pro">
