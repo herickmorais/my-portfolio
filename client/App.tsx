@@ -10,6 +10,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
+import SecurityPayment from "./pages/SecurityPayment";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
