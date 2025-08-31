@@ -69,14 +69,14 @@ export default function Sidebar() {
         {/* Name and Details */}
         <div className="flex flex-col items-start gap-4">
           <div className="flex flex-col items-start gap-4">
-            <h1 className="text-[28px] font-semibold leading-[33.6px] text-[#252525] font-sf-pro">
+            <h1 className="text-[28px] font-semibold leading-[33.6px] text-[#252525]">
               Herick Morais
             </h1>
             <div className="flex flex-col items-start gap-2">
-              <p className="text-[18px] leading-[21.6px] text-[#404040] font-sf-pro">
+              <p className="text-[18px] leading-[21.6px] text-[#404040]">
                 ✦ UX/UI Designer
               </p>
-              <p className="text-[18px] leading-[21.6px] text-[#404040] font-sf-pro">
+              <p className="text-[18px] leading-[21.6px] text-[#404040]">
                 Based in Brazil
               </p>
             </div>
@@ -84,7 +84,7 @@ export default function Sidebar() {
 
           {/* Resume Link */}
           <a href="#" className="flex items-center gap-1 py-1 group">
-            <span className="text-[16px] leading-[19.2px] text-[#0066CC] font-sf-pro group-hover:underline">
+            <span className="text-[16px] leading-[19.2px] text-[#0066CC] group-hover:underline">
               See my resume
             </span>
             <svg width="16" height="16" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +111,7 @@ export default function Sidebar() {
               <div className={`w-6 h-6 ${isActive ? 'text-[#252525]' : 'text-[#999999]'}`}>
                 {item.icon}
               </div>
-              <span className={`text-[16px] leading-[19.2px] font-sf-pro ${
+              <span className={`text-[16px] leading-[19.2px] ${
                 isActive ? 'font-medium text-[#252525]' : 'text-[#666666]'
               }`}>
                 {item.label}
