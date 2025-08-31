@@ -60,6 +60,28 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Portfolio design colors
+        'portfolio-text': {
+          primary: '#252525',
+          secondary: '#414141',
+          muted: '#777777',
+          light: '#666666',
+          dark: '#404040',
+        },
+        'portfolio-accent': {
+          blue: '#0066CC',
+          green: '#008A6C',
+          'green-light': 'rgba(84, 202, 177, 0.16)',
+        },
+        'portfolio-bg': {
+          sidebar: '#F5F5F7',
+          card: '#E2E6E9',
+          'menu-active': '#E4E5E7',
+        },
+        'portfolio-gradient': {
+          'green-start': '#5CD2B9',
+          'green-end': '#0E876D',
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
