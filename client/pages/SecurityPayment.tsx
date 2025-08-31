@@ -543,6 +543,163 @@ export default function SecurityPayment() {
                   </div>
                 </div>
               </div>
+
+              {/* Step 3: Development Section */}
+              <div className="w-full flex flex-col justify-center items-start gap-6 mt-16">
+
+                <h3 className="text-[28px] font-semibold leading-[42px] text-[#CB4E66] w-full">
+                  Step 3: Development
+                </h3>
+
+                <p className="text-[18px] leading-[21.6px] text-[#252525] w-full">
+                  After the approval of the flow, style guide, and initial wireframes, we moved on to creating the new components and high-
+                  fidelity design.
+                </p>
+
+                {/* Mobile App Section */}
+                <div className="w-full flex justify-between items-center gap-10 mt-16">
+                  <div className="w-[270px] p-10 bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl flex justify-center items-end relative">
+                    {/* Mobile Phone Mockup */}
+                    <div className="relative w-[182px] h-[367px]">
+                      {/* Shadow */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/5b1de9458b8a89232d08ac41c00cef2c254b6b31?width=364"
+                        alt="Phone shadow"
+                        className="absolute w-full h-full opacity-70"
+                      />
+                      {/* Main phone */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/44d579f5b6992c8fd2e76222699b219a46a9db2f?width=350"
+                        alt="Phone frame"
+                        className="absolute left-[3px] top-[1px] w-[175px] h-[356px]"
+                      />
+                      {/* Screen content */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/fd836bc04e55dbe967b5ae836684e63a0f07d903?width=316"
+                        alt="Payment slip verification app screen"
+                        className="absolute left-[11px] top-[8px] w-[158px] h-[340px]"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="w-[618px] flex flex-col gap-8">
+                    {/* Description Card */}
+                    <div className="border border-[#DFDFDF] rounded-lg p-4 flex justify-center items-center min-h-[148px]">
+                      <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] text-center max-w-[520px]">
+                        The main product is an application that allows users to quickly scan
+                        payment slips with their phone's camera, facilitating reading.
+                      </p>
+                    </div>
+
+                    {/* Design System Image */}
+                    <div className="border border-[#DFDFDF] rounded-lg p-4 flex justify-center items-center min-h-[248px]">
+                      <div className="w-full h-[203px] relative">
+                        <img
+                          src="https://api.builder.io/api/v1/image/assets/TEMP/c97b25253cf0ef78f2622b3aca5b0418dbe75031?width=1166"
+                          alt="Design system components and UI elements"
+                          className="w-full h-full object-contain rounded-lg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Admin Portal Section */}
+                <div className="w-full flex justify-between items-center gap-10 mt-20">
+                  <div className="w-[384px] flex flex-col gap-8">
+                    {/* Admin Portal Description */}
+                    <div className="border border-[#DFDFDF] rounded-lg p-6 flex justify-center items-center">
+                      <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] text-center">
+                        Creation of an Admin portal to facilitate
+                        product management by the company's
+                        management team without relying on the
+                        development team.
+                      </p>
+                    </div>
+
+                    {/* Admin Portal Wireframe */}
+                    <div className="border border-[#DFDFDF] rounded-lg p-3 flex justify-center items-center min-h-[239px]">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/dedb3bd99543fc0e2e090a6129f5c88111166c86?width=720"
+                        alt="Admin portal wireframe interface"
+                        className="w-full h-[136px] object-contain rounded-lg"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="w-[504px] p-9 bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl flex justify-center items-center relative">
+                    {/* Tablet Mockup */}
+                    <div className="relative w-[438px] h-[336px]">
+                      {/* Shadow */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/056d69903efa2f4b284b2a3cac68890b40450704?width=916"
+                        alt="Tablet shadow"
+                        className="absolute w-[458px] h-[357px] opacity-70"
+                      />
+                      {/* Main tablet */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/f9e6f44282e4b4d664fc870f243962aa023470a0?width=878"
+                        alt="Tablet frame"
+                        className="absolute w-[439px] h-[336px]"
+                      />
+                      {/* Screen content */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/247018df1d4f429efe0efa73a88ddb0e7b986f55?width=824"
+                        alt="Admin dashboard with analytics and charts"
+                        className="absolute left-[13px] top-[13px] w-[412px] h-[310px]"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Landing Page Section */}
+                <div className="w-full flex justify-between items-center gap-10 mt-20">
+                  <div className="w-[504px] p-20 bg-gradient-to-br from-[#F0F1F1] to-[#C3C6CC] rounded-2xl flex justify-center items-center relative">
+                    {/* Laptop Mockup */}
+                    <div className="relative w-[425px] h-[239px]">
+                      {/* Shadow */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/d28b6c42bb501dff98056650cdeaf79a170103b0?width=850"
+                        alt="Laptop shadow"
+                        className="absolute w-full h-full opacity-70"
+                      />
+                      {/* Main laptop */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/430562bb0cbd96c3b8208051ec75de6dfadb66d5?width=850"
+                        alt="Laptop frame"
+                        className="absolute w-full h-full mix-blend-multiply"
+                      />
+                      {/* Screen content */}
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/fa456cb88b52c7b1ef2510d13edbe4f48eed7fab?width=650"
+                        alt="Landing page with verification tool and company information"
+                        className="absolute left-[49px] top-[4px] w-[325px] h-[209px]"
+                      />
+                    </div>
+                  </div>
+
+                  <div className="w-[384px] flex flex-col gap-8">
+                    {/* Landing Page Description */}
+                    <div className="border border-[#DFDFDF] rounded-lg p-6 flex justify-center items-center">
+                      <p className="text-[18px] font-medium leading-[21.6px] text-[#252525] text-center">
+                        Landing page featuring the verification
+                        functionality and an institutional section
+                        explaining the product, company, and
+                        partners.
+                      </p>
+                    </div>
+
+                    {/* Landing Page Design */}
+                    <div className="border border-[#DFDFDF] rounded-lg p-3 flex justify-center items-center min-h-[263px]">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/41bc36328502320801c4a3ac7a2debadec9ffe6a?width=720"
+                        alt="Landing page design layouts and sections"
+                        className="w-full h-[135px] object-contain rounded"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
